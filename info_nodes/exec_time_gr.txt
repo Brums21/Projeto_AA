@@ -1,0 +1,1560 @@
+nnodes:4
+percentage: 0.125
+edges: 0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+nnodes:4
+percentage: 0.25
+edges: 1
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+nnodes:4
+percentage: 0.5
+edges: 3
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0011382102966308594
+nnodes:4
+percentage: 0.75
+edges: 4
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0010006427764892578
+nnodes:5
+percentage: 0.125
+edges: 1
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+nnodes:5
+percentage: 0.25
+edges: 2
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0010089874267578125
+nnodes:5
+percentage: 0.5
+edges: 5
+--
+k_value:1
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0010056495666503906
+--
+k_value:4
+execution_time:0.001004934310913086
+nnodes:5
+percentage: 0.75
+edges: 7
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0009982585906982422
+--
+k_value:4
+execution_time:0.001997709274291992
+--
+k_value:5
+execution_time:0.0025272369384765625
+nnodes:6
+percentage: 0.125
+edges: 1
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+nnodes:6
+percentage: 0.25
+edges: 3
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:6
+percentage: 0.5
+edges: 7
+--
+k_value:1
+execution_time:0.0009996891021728516
+--
+k_value:2
+execution_time:0.00099945068359375
+--
+k_value:4
+execution_time:0.0010242462158203125
+--
+k_value:5
+execution_time:0.0010123252868652344
+nnodes:6
+percentage: 0.75
+edges: 11
+--
+k_value:1
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0020165443420410156
+--
+k_value:6
+execution_time:0.0010004043579101562
+--
+k_value:8
+execution_time:0.0009992122650146484
+nnodes:7
+percentage: 0.125
+edges: 2
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:7
+percentage: 0.25
+edges: 5
+--
+k_value:1
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0005183219909667969
+--
+k_value:4
+execution_time:0.001003265380859375
+nnodes:7
+percentage: 0.5
+edges: 10
+--
+k_value:1
+execution_time:0.0010113716125488281
+--
+k_value:2
+execution_time:0.0010128021240234375
+--
+k_value:5
+execution_time:0.0
+--
+k_value:8
+execution_time:0.0019996166229248047
+nnodes:7
+percentage: 0.75
+edges: 15
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0029973983764648438
+--
+k_value:8
+execution_time:0.0031464099884033203
+--
+k_value:11
+execution_time:0.0035262107849121094
+nnodes:8
+percentage: 0.125
+edges: 3
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:8
+percentage: 0.25
+edges: 7
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0010013580322265625
+--
+k_value:4
+execution_time:0.0009996891021728516
+--
+k_value:5
+execution_time:0.0010001659393310547
+nnodes:8
+percentage: 0.5
+edges: 14
+--
+k_value:2
+execution_time:0.0008916854858398438
+--
+k_value:4
+execution_time:0.0019996166229248047
+--
+k_value:7
+execution_time:0.005010128021240234
+--
+k_value:10
+execution_time:0.004000663757324219
+nnodes:8
+percentage: 0.75
+edges: 21
+--
+k_value:3
+execution_time:0.0014925003051757812
+--
+k_value:5
+execution_time:0.0040094852447509766
+--
+k_value:10
+execution_time:0.03184676170349121
+--
+k_value:16
+execution_time:0.00453639030456543
+nnodes:9
+percentage: 0.125
+edges: 4
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.000995635986328125
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0
+nnodes:9
+percentage: 0.25
+edges: 9
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0010030269622802734
+--
+k_value:4
+execution_time:0.0
+--
+k_value:7
+execution_time:0.0009999275207519531
+nnodes:9
+percentage: 0.5
+edges: 18
+--
+k_value:2
+execution_time:0.0015654563903808594
+--
+k_value:4
+execution_time:0.002010822296142578
+--
+k_value:9
+execution_time:0.002992868423461914
+--
+k_value:14
+execution_time:0.004008769989013672
+nnodes:9
+percentage: 0.75
+edges: 27
+--
+k_value:3
+execution_time:0.002001523971557617
+--
+k_value:7
+execution_time:0.0029993057250976562
+--
+k_value:14
+execution_time:0.005999326705932617
+--
+k_value:20
+execution_time:0.006013631820678711
+nnodes:10
+percentage: 0.125
+edges: 5
+--
+k_value:1
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.001676321029663086
+nnodes:10
+percentage: 0.25
+edges: 11
+--
+k_value:1
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0009903907775878906
+--
+k_value:6
+execution_time:0.0015099048614501953
+--
+k_value:8
+execution_time:0.0009975433349609375
+nnodes:10
+percentage: 0.5
+edges: 22
+--
+k_value:3
+execution_time:0.0015158653259277344
+--
+k_value:6
+execution_time:0.00299835205078125
+--
+k_value:11
+execution_time:0.0035130977630615234
+--
+k_value:16
+execution_time:0.002995729446411133
+nnodes:10
+percentage: 0.75
+edges: 33
+--
+k_value:4
+execution_time:0.0030698776245117188
+--
+k_value:8
+execution_time:0.003996849060058594
+--
+k_value:16
+execution_time:0.007004499435424805
+--
+k_value:25
+execution_time:0.015522480010986328
+nnodes:11
+percentage: 0.125
+edges: 6
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0
+nnodes:11
+percentage: 0.25
+edges: 13
+--
+k_value:2
+execution_time:0.0010056495666503906
+--
+k_value:3
+execution_time:0.001001119613647461
+--
+k_value:6
+execution_time:0.0
+--
+k_value:10
+execution_time:0.0009989738464355469
+nnodes:11
+percentage: 0.5
+edges: 27
+--
+k_value:3
+execution_time:0.0030031204223632812
+--
+k_value:7
+execution_time:0.004116058349609375
+--
+k_value:14
+execution_time:0.005525350570678711
+--
+k_value:20
+execution_time:0.007337808609008789
+nnodes:11
+percentage: 0.75
+edges: 41
+--
+k_value:5
+execution_time:0.003999233245849609
+--
+k_value:10
+execution_time:0.005998849868774414
+--
+k_value:20
+execution_time:0.012522220611572266
+--
+k_value:31
+execution_time:0.016521453857421875
+nnodes:12
+percentage: 0.125
+edges: 8
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0009980201721191406
+--
+k_value:4
+execution_time:0.0
+--
+k_value:6
+execution_time:0.0019943714141845703
+nnodes:12
+percentage: 0.25
+edges: 16
+--
+k_value:2
+execution_time:0.0019986629486083984
+--
+k_value:4
+execution_time:0.001031637191772461
+--
+k_value:8
+execution_time:0.0020096302032470703
+--
+k_value:12
+execution_time:0.0029964447021484375
+nnodes:12
+percentage: 0.5
+edges: 33
+--
+k_value:4
+execution_time:0.0020036697387695312
+--
+k_value:8
+execution_time:0.006521463394165039
+--
+k_value:16
+execution_time:0.00852656364440918
+--
+k_value:25
+execution_time:0.014043807983398438
+nnodes:12
+percentage: 0.75
+edges: 49
+--
+k_value:6
+execution_time:0.005514621734619141
+--
+k_value:12
+execution_time:0.009518861770629883
+--
+k_value:24
+execution_time:0.01749897003173828
+--
+k_value:37
+execution_time:0.0296480655670166
+nnodes:13
+percentage: 0.125
+edges: 9
+--
+k_value:1
+execution_time:0.0009999275207519531
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0
+--
+k_value:7
+execution_time:0.0010035037994384766
+nnodes:13
+percentage: 0.25
+edges: 19
+--
+k_value:2
+execution_time:0.0009963512420654297
+--
+k_value:5
+execution_time:0.00299835205078125
+--
+k_value:10
+execution_time:0.003999233245849609
+--
+k_value:14
+execution_time:0.0025200843811035156
+nnodes:13
+percentage: 0.5
+edges: 39
+--
+k_value:5
+execution_time:0.006529569625854492
+--
+k_value:10
+execution_time:0.008554935455322266
+--
+k_value:20
+execution_time:0.017948627471923828
+--
+k_value:29
+execution_time:0.01709890365600586
+nnodes:13
+percentage: 0.75
+edges: 58
+--
+k_value:7
+execution_time:0.013682365417480469
+--
+k_value:14
+execution_time:0.019051551818847656
+--
+k_value:29
+execution_time:0.0273284912109375
+--
+k_value:44
+execution_time:0.04575061798095703
+nnodes:14
+percentage: 0.125
+edges: 11
+--
+k_value:1
+execution_time:0.0010066032409667969
+--
+k_value:3
+execution_time:0.0005178451538085938
+--
+k_value:6
+execution_time:0.0020008087158203125
+--
+k_value:8
+execution_time:0.0009968280792236328
+nnodes:14
+percentage: 0.25
+edges: 22
+--
+k_value:3
+execution_time:0.0019948482513427734
+--
+k_value:6
+execution_time:0.0029942989349365234
+--
+k_value:11
+execution_time:0.0030291080474853516
+--
+k_value:16
+execution_time:0.005525350570678711
+nnodes:14
+percentage: 0.5
+edges: 45
+--
+k_value:6
+execution_time:0.00791311264038086
+--
+k_value:11
+execution_time:0.00813913345336914
+--
+k_value:22
+execution_time:0.01617431640625
+--
+k_value:34
+execution_time:0.029651880264282227
+nnodes:14
+percentage: 0.75
+edges: 68
+--
+k_value:8
+execution_time:0.02016901969909668
+--
+k_value:17
+execution_time:0.030066251754760742
+--
+k_value:34
+execution_time:0.07238364219665527
+--
+k_value:51
+execution_time:0.06633281707763672
+nnodes:15
+percentage: 0.125
+edges: 13
+--
+k_value:2
+execution_time:0.0010020732879638672
+--
+k_value:3
+execution_time:0.0019986629486083984
+--
+k_value:6
+execution_time:0.0025284290313720703
+--
+k_value:10
+execution_time:0.0019969940185546875
+nnodes:15
+percentage: 0.25
+edges: 26
+--
+k_value:3
+execution_time:0.002997159957885742
+--
+k_value:6
+execution_time:0.0032019615173339844
+--
+k_value:13
+execution_time:0.0059986114501953125
+--
+k_value:20
+execution_time:0.00958561897277832
+nnodes:15
+percentage: 0.5
+edges: 52
+--
+k_value:6
+execution_time:0.010540485382080078
+--
+k_value:13
+execution_time:0.015156030654907227
+--
+k_value:26
+execution_time:0.029585599899291992
+--
+k_value:39
+execution_time:0.03458213806152344
+nnodes:15
+percentage: 0.75
+edges: 78
+--
+k_value:10
+execution_time:0.023055315017700195
+--
+k_value:20
+execution_time:0.050595998764038086
+--
+k_value:39
+execution_time:0.0740811824798584
+--
+k_value:58
+execution_time:0.09597659111022949
+nnodes:16
+percentage: 0.125
+edges: 15
+--
+k_value:2
+execution_time:0.0010075569152832031
+--
+k_value:4
+execution_time:0.0010027885437011719
+--
+k_value:8
+execution_time:0.0019969940185546875
+--
+k_value:11
+execution_time:0.003000497817993164
+nnodes:16
+percentage: 0.25
+edges: 30
+--
+k_value:4
+execution_time:0.0019986629486083984
+--
+k_value:8
+execution_time:0.00708317756652832
+--
+k_value:15
+execution_time:0.0082855224609375
+--
+k_value:22
+execution_time:0.008342981338500977
+nnodes:16
+percentage: 0.5
+edges: 60
+--
+k_value:8
+execution_time:0.014150619506835938
+--
+k_value:15
+execution_time:0.034256696701049805
+--
+k_value:30
+execution_time:0.058434247970581055
+--
+k_value:45
+execution_time:0.05437612533569336
+nnodes:16
+percentage: 0.75
+edges: 90
+--
+k_value:11
+execution_time:0.03447127342224121
+--
+k_value:22
+execution_time:0.07901215553283691
+--
+k_value:45
+execution_time:0.11897110939025879
+--
+k_value:68
+execution_time:0.13148975372314453
+nnodes:17
+percentage: 0.125
+edges: 17
+--
+k_value:2
+execution_time:0.0015633106231689453
+--
+k_value:4
+execution_time:0.00201416015625
+--
+k_value:8
+execution_time:0.005526065826416016
+--
+k_value:13
+execution_time:0.0029954910278320312
+nnodes:17
+percentage: 0.25
+edges: 34
+--
+k_value:4
+execution_time:0.0039997100830078125
+--
+k_value:8
+execution_time:0.004072666168212891
+--
+k_value:17
+execution_time:0.008521080017089844
+--
+k_value:26
+execution_time:0.011518478393554688
+nnodes:17
+percentage: 0.5
+edges: 68
+--
+k_value:8
+execution_time:0.018646240234375
+--
+k_value:17
+execution_time:0.026573657989501953
+--
+k_value:34
+execution_time:0.040082454681396484
+--
+k_value:51
+execution_time:0.05929446220397949
+nnodes:17
+percentage: 0.75
+edges: 102
+--
+k_value:13
+execution_time:0.03432965278625488
+--
+k_value:26
+execution_time:0.08201050758361816
+--
+k_value:51
+execution_time:0.12394952774047852
+--
+k_value:76
+execution_time:0.19717025756835938
+nnodes:18
+percentage: 0.125
+edges: 19
+--
+k_value:2
+execution_time:0.0010066032409667969
+--
+k_value:5
+execution_time:0.002061128616333008
+--
+k_value:10
+execution_time:0.001999378204345703
+--
+k_value:14
+execution_time:0.0035064220428466797
+nnodes:18
+percentage: 0.25
+edges: 38
+--
+k_value:5
+execution_time:0.004528999328613281
+--
+k_value:10
+execution_time:0.014744281768798828
+--
+k_value:19
+execution_time:0.015546321868896484
+--
+k_value:28
+execution_time:0.013519525527954102
+nnodes:18
+percentage: 0.5
+edges: 76
+--
+k_value:10
+execution_time:0.016183853149414062
+--
+k_value:19
+execution_time:0.046570539474487305
+--
+k_value:38
+execution_time:0.06410956382751465
+--
+k_value:57
+execution_time:0.08529019355773926
+nnodes:18
+percentage: 0.75
+edges: 114
+--
+k_value:14
+execution_time:0.05435371398925781
+--
+k_value:28
+execution_time:0.1281147003173828
+--
+k_value:57
+execution_time:0.2111527919769287
+--
+k_value:86
+execution_time:0.24241209030151367
+nnodes:19
+percentage: 0.125
+edges: 21
+--
+k_value:3
+execution_time:0.0009975433349609375
+--
+k_value:5
+execution_time:0.0009894371032714844
+--
+k_value:10
+execution_time:0.0029964447021484375
+--
+k_value:16
+execution_time:0.005003929138183594
+nnodes:19
+percentage: 0.25
+edges: 42
+--
+k_value:5
+execution_time:0.003997087478637695
+--
+k_value:10
+execution_time:0.008012771606445312
+--
+k_value:21
+execution_time:0.01752638816833496
+--
+k_value:32
+execution_time:0.016177654266357422
+nnodes:19
+percentage: 0.5
+edges: 85
+--
+k_value:11
+execution_time:0.023618698120117188
+--
+k_value:21
+execution_time:0.034192562103271484
+--
+k_value:42
+execution_time:0.08734369277954102
+--
+k_value:64
+execution_time:0.09607243537902832
+nnodes:19
+percentage: 0.75
+edges: 128
+--
+k_value:16
+execution_time:0.07155919075012207
+--
+k_value:32
+execution_time:0.1245574951171875
+--
+k_value:64
+execution_time:0.20511150360107422
+--
+k_value:96
+execution_time:0.2546710968017578
+nnodes:20
+percentage: 0.125
+edges: 23
+--
+k_value:3
+execution_time:0.003000020980834961
+--
+k_value:6
+execution_time:0.002509593963623047
+--
+k_value:12
+execution_time:0.0030007362365722656
+--
+k_value:17
+execution_time:0.00516057014465332
+nnodes:20
+percentage: 0.25
+edges: 47
+--
+k_value:6
+execution_time:0.009120702743530273
+--
+k_value:12
+execution_time:0.009529829025268555
+--
+k_value:24
+execution_time:0.014332056045532227
+--
+k_value:35
+execution_time:0.02807474136352539
+nnodes:20
+percentage: 0.5
+edges: 95
+--
+k_value:12
+execution_time:0.03468585014343262
+--
+k_value:24
+execution_time:0.08643364906311035
+--
+k_value:48
+execution_time:0.1151132583618164
+--
+k_value:71
+execution_time:0.19455742835998535
+nnodes:20
+percentage: 0.75
+edges: 142
+--
+k_value:18
+execution_time:0.09031987190246582
+--
+k_value:36
+execution_time:0.17513203620910645
+--
+k_value:71
+execution_time:0.35144782066345215
+--
+k_value:106
+execution_time:0.3836233615875244
+nnodes:21
+percentage: 0.125
+edges: 26
+--
+k_value:3
+execution_time:0.0035257339477539062
+--
+k_value:6
+execution_time:0.0040056705474853516
+--
+k_value:13
+execution_time:0.007074594497680664
+--
+k_value:20
+execution_time:0.006520271301269531
+nnodes:21
+percentage: 0.25
+edges: 52
+--
+k_value:6
+execution_time:0.007078886032104492
+--
+k_value:13
+execution_time:0.012226104736328125
+--
+k_value:26
+execution_time:0.027635812759399414
+--
+k_value:39
+execution_time:0.02824997901916504
+nnodes:21
+percentage: 0.5
+edges: 105
+--
+k_value:13
+execution_time:0.03325533866882324
+--
+k_value:26
+execution_time:0.07665324211120605
+--
+k_value:52
+execution_time:0.14729571342468262
+--
+k_value:79
+execution_time:0.17612385749816895
+nnodes:21
+percentage: 0.75
+edges: 157
+--
+k_value:20
+execution_time:0.11425042152404785
+--
+k_value:39
+execution_time:0.1986398696899414
+--
+k_value:78
+execution_time:0.3024272918701172
+--
+k_value:118
+execution_time:0.4456655979156494
+nnodes:22
+percentage: 0.125
+edges: 28
+--
+k_value:4
+execution_time:0.004001140594482422
+--
+k_value:7
+execution_time:0.004533529281616211
+--
+k_value:14
+execution_time:0.006512165069580078
+--
+k_value:21
+execution_time:0.011860847473144531
+nnodes:22
+percentage: 0.25
+edges: 57
+--
+k_value:7
+execution_time:0.011533260345458984
+--
+k_value:14
+execution_time:0.017913341522216797
+--
+k_value:28
+execution_time:0.04034924507141113
+--
+k_value:43
+execution_time:0.031612396240234375
+nnodes:22
+percentage: 0.5
+edges: 115
+--
+k_value:14
+execution_time:0.042317867279052734
+--
+k_value:29
+execution_time:0.0788414478302002
+--
+k_value:58
+execution_time:0.12017393112182617
+--
+k_value:86
+execution_time:0.13884329795837402
+nnodes:22
+percentage: 0.75
+edges: 173
+--
+k_value:22
+execution_time:0.10430645942687988
+--
+k_value:43
+execution_time:0.183549165725708
+--
+k_value:86
+execution_time:0.3283877372741699
+--
+k_value:130
+execution_time:0.46500182151794434
+nnodes:23
+percentage: 0.125
+edges: 31
+--
+k_value:4
+execution_time:0.003002643585205078
+--
+k_value:8
+execution_time:0.005546092987060547
+--
+k_value:16
+execution_time:0.011533498764038086
+--
+k_value:23
+execution_time:0.02105879783630371
+nnodes:23
+percentage: 0.25
+edges: 63
+--
+k_value:8
+execution_time:0.021082639694213867
+--
+k_value:16
+execution_time:0.032784461975097656
+--
+k_value:32
+execution_time:0.05712580680847168
+--
+k_value:47
+execution_time:0.05750107765197754
+nnodes:23
+percentage: 0.5
+edges: 126
+--
+k_value:16
+execution_time:0.07922172546386719
+--
+k_value:32
+execution_time:0.11484694480895996
+--
+k_value:63
+execution_time:0.20806503295898438
+--
+k_value:94
+execution_time:0.2572801113128662
+nnodes:23
+percentage: 0.75
+edges: 189
+--
+k_value:24
+execution_time:0.1781940460205078
+--
+k_value:47
+execution_time:0.2930898666381836
+--
+k_value:94
+execution_time:0.44065141677856445
+--
+k_value:142
+execution_time:0.5912396907806396
+nnodes:24
+percentage: 0.125
+edges: 34
+--
+k_value:4
+execution_time:0.0030024051666259766
+--
+k_value:8
+execution_time:0.003009319305419922
+--
+k_value:17
+execution_time:0.009528636932373047
+--
+k_value:26
+execution_time:0.012747049331665039
+nnodes:24
+percentage: 0.25
+edges: 69
+--
+k_value:9
+execution_time:0.015099048614501953
+--
+k_value:17
+execution_time:0.020758628845214844
+--
+k_value:34
+execution_time:0.04214167594909668
+--
+k_value:52
+execution_time:0.06036639213562012
+nnodes:24
+percentage: 0.5
+edges: 138
+--
+k_value:17
+execution_time:0.08084559440612793
+--
+k_value:34
+execution_time:0.13185644149780273
+--
+k_value:69
+execution_time:0.22940778732299805
+--
+k_value:104
+execution_time:0.23501801490783691
+nnodes:24
+percentage: 0.75
+edges: 207
+--
+k_value:26
+execution_time:0.19054031372070312
+--
+k_value:52
+execution_time:0.3112499713897705
+--
+k_value:104
+execution_time:0.5422956943511963
+--
+k_value:155
+execution_time:0.7039632797241211
+nnodes:25
+percentage: 0.125
+edges: 37
+--
+k_value:5
+execution_time:0.003511190414428711
+--
+k_value:9
+execution_time:0.00653529167175293
+--
+k_value:18
+execution_time:0.012679576873779297
+--
+k_value:28
+execution_time:0.014272928237915039
+nnodes:25
+percentage: 0.25
+edges: 75
+--
+k_value:9
+execution_time:0.013535499572753906
+--
+k_value:19
+execution_time:0.030156612396240234
+--
+k_value:38
+execution_time:0.04169631004333496
+--
+k_value:56
+execution_time:0.05223441123962402
+nnodes:25
+percentage: 0.5
+edges: 150
+--
+k_value:19
+execution_time:0.08205080032348633
+--
+k_value:38
+execution_time:0.13291645050048828
+--
+k_value:75
+execution_time:0.22511076927185059
+--
+k_value:112
+execution_time:0.27934789657592773
+nnodes:25
+percentage: 0.75
+edges: 225
+--
+k_value:28
+execution_time:0.20044469833374023
+--
+k_value:56
+execution_time:0.36155223846435547
+--
+k_value:112
+execution_time:0.6057391166687012
+--
+k_value:169
+execution_time:0.877042293548584
+nnodes:26
+percentage: 0.125
+edges: 40
+--
+k_value:5
+execution_time:0.0029985904693603516
+--
+k_value:10
+execution_time:0.0050106048583984375
+--
+k_value:20
+execution_time:0.010526657104492188
+--
+k_value:30
+execution_time:0.017478227615356445
+nnodes:26
+percentage: 0.25
+edges: 81
+--
+k_value:10
+execution_time:0.020596742630004883
+--
+k_value:20
+execution_time:0.04534316062927246
+--
+k_value:40
+execution_time:0.060889482498168945
+--
+k_value:61
+execution_time:0.06806159019470215
+nnodes:26
+percentage: 0.5
+edges: 162
+--
+k_value:20
+execution_time:0.08132433891296387
+--
+k_value:40
+execution_time:0.14860057830810547
+--
+k_value:81
+execution_time:0.31018519401550293
+--
+k_value:122
+execution_time:0.38663387298583984
+nnodes:26
+percentage: 0.75
+edges: 243
+--
+k_value:30
+execution_time:0.269824743270874
+--
+k_value:61
+execution_time:0.5079624652862549
+--
+k_value:122
+execution_time:0.8209350109100342
+--
+k_value:182
+execution_time:0.9251692295074463
+nnodes:27
+percentage: 0.125
+edges: 43
+--
+k_value:5
+execution_time:0.0050008296966552734
+--
+k_value:11
+execution_time:0.006917238235473633
+--
+k_value:22
+execution_time:0.011139631271362305
+--
+k_value:32
+execution_time:0.011516332626342773
+nnodes:27
+percentage: 0.25
+edges: 87
+--
+k_value:11
+execution_time:0.023029088973999023
+--
+k_value:22
+execution_time:0.032584428787231445
+--
+k_value:44
+execution_time:0.054277896881103516
+--
+k_value:65
+execution_time:0.07486104965209961
+nnodes:27
+percentage: 0.5
+edges: 175
+--
+k_value:22
+execution_time:0.09695029258728027
+--
+k_value:44
+execution_time:0.2076714038848877
+--
+k_value:88
+execution_time:0.33985471725463867
+--
+k_value:131
+execution_time:0.41570281982421875
+nnodes:27
+percentage: 0.75
+edges: 263
+--
+k_value:33
+execution_time:0.3543989658355713
+--
+k_value:66
+execution_time:0.6083884239196777
+--
+k_value:132
+execution_time:1.053962230682373
+--
+k_value:197
+execution_time:1.436372995376587
+nnodes:28
+percentage: 0.125
+edges: 47
+--
+k_value:6
+execution_time:0.003992557525634766
+--
+k_value:12
+execution_time:0.01013040542602539
+--
+k_value:24
+execution_time:0.018036842346191406
+--
+k_value:35
+execution_time:0.024962663650512695
+nnodes:28
+percentage: 0.25
+edges: 94
+--
+k_value:12
+execution_time:0.022418737411499023
+--
+k_value:24
+execution_time:0.03844475746154785
+--
+k_value:47
+execution_time:0.07282543182373047
+--
+k_value:70
+execution_time:0.09807944297790527
+nnodes:28
+percentage: 0.5
+edges: 189
+--
+k_value:24
+execution_time:0.13445210456848145
+--
+k_value:47
+execution_time:0.2229938507080078
+--
+k_value:94
+execution_time:0.4288971424102783
+--
+k_value:142
+execution_time:0.5506730079650879
+nnodes:28
+percentage: 0.75
+edges: 283
+--
+k_value:35
+execution_time:0.37965893745422363
+--
+k_value:71
+execution_time:0.7273755073547363
+--
+k_value:142
+execution_time:1.366910696029663
+--
+k_value:212
+execution_time:1.9348945617675781
+nnodes:29
+percentage: 0.125
+edges: 50
+--
+k_value:6
+execution_time:0.0050487518310546875
+--
+k_value:12
+execution_time:0.008519411087036133
+--
+k_value:25
+execution_time:0.01905512809753418
+--
+k_value:38
+execution_time:0.02516937255859375
+nnodes:29
+percentage: 0.25
+edges: 101
+--
+k_value:13
+execution_time:0.03312969207763672
+--
+k_value:25
+execution_time:0.07559347152709961
+--
+k_value:50
+execution_time:0.1055288314819336
+--
+k_value:76
+execution_time:0.15293550491333008
+nnodes:29
+percentage: 0.5
+edges: 203
+--
+k_value:25
+execution_time:0.17892789840698242
+--
+k_value:51
+execution_time:0.31755900382995605
+--
+k_value:102
+execution_time:0.576169490814209
+--
+k_value:152
+execution_time:0.7465980052947998
+nnodes:29
+percentage: 0.75
+edges: 304
+--
+k_value:38
+execution_time:0.5374670028686523
+--
+k_value:76
+execution_time:1.0845699310302734
+--
+k_value:152
+execution_time:1.4592034816741943
+--
+k_value:228
+execution_time:2.3375375270843506
