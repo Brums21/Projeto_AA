@@ -1,1144 +1,1560 @@
 nnodes:4
 percentage: 0.125
 edges: 0
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
 nnodes:4
 percentage: 0.25
 edges: 1
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
 nnodes:4
 percentage: 0.5
 edges: 3
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:2
 configurations:2
 nnodes:4
 percentage: 0.75
 edges: 4
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:3
 configurations:3
 nnodes:5
 percentage: 0.125
 edges: 1
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
 nnodes:5
 percentage: 0.25
 edges: 2
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
 nnodes:5
 percentage: 0.5
 edges: 5
+--
 k_value:1
 configurations:1
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
 nnodes:5
 percentage: 0.75
 edges: 7
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:5
 configurations:5
 nnodes:6
 percentage: 0.125
 edges: 1
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
 nnodes:6
 percentage: 0.25
 edges: 3
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:2
 configurations:2
 nnodes:6
 percentage: 0.5
 edges: 7
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:5
 configurations:5
 nnodes:6
 percentage: 0.75
 edges: 11
+--
 k_value:1
 configurations:1
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:8
 configurations:8
 nnodes:7
 percentage: 0.125
 edges: 2
+--
 k_value:0
 configurations:0
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
 nnodes:7
 percentage: 0.25
 edges: 5
+--
 k_value:1
 configurations:1
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
 nnodes:7
 percentage: 0.5
 edges: 10
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:5
 configurations:5
+--
 k_value:8
 configurations:8
 nnodes:7
 percentage: 0.75
 edges: 15
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:11
 configurations:11
 nnodes:8
 percentage: 0.125
 edges: 3
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:2
 configurations:2
 nnodes:8
 percentage: 0.25
 edges: 7
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:5
 configurations:5
 nnodes:8
 percentage: 0.5
 edges: 14
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:7
 configurations:7
+--
 k_value:10
 configurations:10
 nnodes:8
 percentage: 0.75
 edges: 21
+--
 k_value:3
 configurations:3
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:16
 configurations:16
 nnodes:9
 percentage: 0.125
 edges: 4
+--
 k_value:0
 configurations:0
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:3
 configurations:3
 nnodes:9
 percentage: 0.25
 edges: 9
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:7
 configurations:7
 nnodes:9
 percentage: 0.5
 edges: 18
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:9
 configurations:9
+--
 k_value:14
 configurations:14
 nnodes:9
 percentage: 0.75
 edges: 27
+--
 k_value:3
 configurations:3
+--
 k_value:7
 configurations:7
+--
 k_value:14
 configurations:14
+--
 k_value:20
 configurations:20
 nnodes:10
 percentage: 0.125
 edges: 5
+--
 k_value:1
 configurations:1
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
 nnodes:10
 percentage: 0.25
 edges: 11
+--
 k_value:1
 configurations:1
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:8
 configurations:8
 nnodes:10
 percentage: 0.5
 edges: 22
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:11
 configurations:11
+--
 k_value:16
 configurations:16
 nnodes:10
 percentage: 0.75
 edges: 33
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:16
 configurations:16
+--
 k_value:25
 configurations:25
 nnodes:11
 percentage: 0.125
 edges: 6
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:3
 configurations:3
+--
 k_value:4
 configurations:4
 nnodes:11
 percentage: 0.25
 edges: 13
+--
 k_value:2
 configurations:2
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:10
 configurations:10
 nnodes:11
 percentage: 0.5
 edges: 27
+--
 k_value:3
 configurations:3
+--
 k_value:7
 configurations:7
+--
 k_value:14
 configurations:14
+--
 k_value:20
 configurations:20
 nnodes:11
 percentage: 0.75
 edges: 41
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:20
 configurations:20
+--
 k_value:31
 configurations:31
 nnodes:12
 percentage: 0.125
 edges: 8
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:6
 configurations:6
 nnodes:12
 percentage: 0.25
 edges: 16
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:12
 configurations:12
 nnodes:12
 percentage: 0.5
 edges: 33
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:16
 configurations:16
+--
 k_value:25
 configurations:25
 nnodes:12
 percentage: 0.75
 edges: 49
+--
 k_value:6
 configurations:6
+--
 k_value:12
 configurations:12
+--
 k_value:24
 configurations:24
+--
 k_value:37
 configurations:37
 nnodes:13
 percentage: 0.125
 edges: 9
+--
 k_value:1
 configurations:1
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:7
 configurations:7
 nnodes:13
 percentage: 0.25
 edges: 19
+--
 k_value:2
 configurations:2
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:14
 configurations:14
 nnodes:13
 percentage: 0.5
 edges: 39
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:20
 configurations:20
+--
 k_value:29
 configurations:29
 nnodes:13
 percentage: 0.75
 edges: 58
+--
 k_value:7
 configurations:7
+--
 k_value:14
 configurations:14
+--
 k_value:29
 configurations:29
+--
 k_value:44
 configurations:44
 nnodes:14
 percentage: 0.125
 edges: 11
+--
 k_value:1
 configurations:1
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:8
 configurations:8
 nnodes:14
 percentage: 0.25
 edges: 22
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:11
 configurations:11
+--
 k_value:16
 configurations:16
 nnodes:14
 percentage: 0.5
 edges: 45
+--
 k_value:6
 configurations:6
+--
 k_value:11
 configurations:11
+--
 k_value:22
 configurations:22
+--
 k_value:34
 configurations:34
 nnodes:14
 percentage: 0.75
 edges: 68
+--
 k_value:8
 configurations:8
+--
 k_value:17
 configurations:17
+--
 k_value:34
 configurations:34
+--
 k_value:51
 configurations:51
 nnodes:15
 percentage: 0.125
 edges: 13
+--
 k_value:2
 configurations:2
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:10
 configurations:10
 nnodes:15
 percentage: 0.25
 edges: 26
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:13
 configurations:13
+--
 k_value:20
 configurations:20
 nnodes:15
 percentage: 0.5
 edges: 52
+--
 k_value:6
 configurations:6
+--
 k_value:13
 configurations:13
+--
 k_value:26
 configurations:26
+--
 k_value:39
 configurations:39
 nnodes:15
 percentage: 0.75
 edges: 78
+--
 k_value:10
 configurations:10
+--
 k_value:20
 configurations:20
+--
 k_value:39
 configurations:39
+--
 k_value:58
 configurations:58
 nnodes:16
 percentage: 0.125
 edges: 15
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:11
 configurations:11
 nnodes:16
 percentage: 0.25
 edges: 30
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:15
 configurations:15
+--
 k_value:22
 configurations:22
 nnodes:16
 percentage: 0.5
 edges: 60
+--
 k_value:8
 configurations:8
+--
 k_value:15
 configurations:15
+--
 k_value:30
 configurations:30
+--
 k_value:45
 configurations:45
 nnodes:16
 percentage: 0.75
 edges: 90
+--
 k_value:11
 configurations:11
+--
 k_value:22
 configurations:22
+--
 k_value:45
 configurations:45
+--
 k_value:68
 configurations:68
 nnodes:17
 percentage: 0.125
 edges: 17
+--
 k_value:2
 configurations:2
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:13
 configurations:13
 nnodes:17
 percentage: 0.25
 edges: 34
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:17
 configurations:17
+--
 k_value:26
 configurations:26
 nnodes:17
 percentage: 0.5
 edges: 68
+--
 k_value:8
 configurations:8
+--
 k_value:17
 configurations:17
+--
 k_value:34
 configurations:34
+--
 k_value:51
 configurations:51
 nnodes:17
 percentage: 0.75
 edges: 102
+--
 k_value:13
 configurations:13
+--
 k_value:26
 configurations:26
+--
 k_value:51
 configurations:51
+--
 k_value:76
 configurations:76
 nnodes:18
 percentage: 0.125
 edges: 19
+--
 k_value:2
 configurations:2
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:14
 configurations:14
 nnodes:18
 percentage: 0.25
 edges: 38
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:19
 configurations:19
+--
 k_value:28
 configurations:28
 nnodes:18
 percentage: 0.5
 edges: 76
+--
 k_value:10
 configurations:10
+--
 k_value:19
 configurations:19
+--
 k_value:38
 configurations:38
+--
 k_value:57
 configurations:57
 nnodes:18
 percentage: 0.75
 edges: 114
+--
 k_value:14
 configurations:14
+--
 k_value:28
 configurations:28
+--
 k_value:57
 configurations:57
+--
 k_value:86
 configurations:86
 nnodes:19
 percentage: 0.125
 edges: 21
+--
 k_value:3
 configurations:3
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:16
 configurations:16
 nnodes:19
 percentage: 0.25
 edges: 42
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:21
 configurations:21
+--
 k_value:32
 configurations:32
 nnodes:19
 percentage: 0.5
 edges: 85
+--
 k_value:11
 configurations:11
+--
 k_value:21
 configurations:21
+--
 k_value:42
 configurations:42
+--
 k_value:64
 configurations:64
 nnodes:19
 percentage: 0.75
 edges: 128
+--
 k_value:16
 configurations:16
+--
 k_value:32
 configurations:32
+--
 k_value:64
 configurations:64
+--
 k_value:96
 configurations:96
 nnodes:20
 percentage: 0.125
 edges: 23
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:12
 configurations:12
+--
 k_value:17
 configurations:17
 nnodes:20
 percentage: 0.25
 edges: 47
+--
 k_value:6
 configurations:6
+--
 k_value:12
 configurations:12
+--
 k_value:24
 configurations:24
+--
 k_value:35
 configurations:35
 nnodes:20
 percentage: 0.5
 edges: 95
+--
 k_value:12
 configurations:12
+--
 k_value:24
 configurations:24
+--
 k_value:48
 configurations:48
+--
 k_value:71
 configurations:71
 nnodes:20
 percentage: 0.75
 edges: 142
+--
 k_value:18
 configurations:18
+--
 k_value:36
 configurations:36
+--
 k_value:71
 configurations:71
+--
 k_value:106
 configurations:106
 nnodes:21
 percentage: 0.125
 edges: 26
+--
 k_value:3
 configurations:3
+--
 k_value:6
 configurations:6
+--
 k_value:13
 configurations:13
+--
 k_value:20
 configurations:20
 nnodes:21
 percentage: 0.25
 edges: 52
+--
 k_value:6
 configurations:6
+--
 k_value:13
 configurations:13
+--
 k_value:26
 configurations:26
+--
 k_value:39
 configurations:39
 nnodes:21
 percentage: 0.5
 edges: 105
+--
 k_value:13
 configurations:13
+--
 k_value:26
 configurations:26
+--
 k_value:52
 configurations:52
+--
 k_value:79
 configurations:79
 nnodes:21
 percentage: 0.75
 edges: 157
+--
 k_value:20
 configurations:20
+--
 k_value:39
 configurations:39
+--
 k_value:78
 configurations:78
+--
 k_value:118
 configurations:118
 nnodes:22
 percentage: 0.125
 edges: 28
+--
 k_value:4
 configurations:4
+--
 k_value:7
 configurations:7
+--
 k_value:14
 configurations:14
+--
 k_value:21
 configurations:21
 nnodes:22
 percentage: 0.25
 edges: 57
+--
 k_value:7
 configurations:7
+--
 k_value:14
 configurations:14
+--
 k_value:28
 configurations:28
+--
 k_value:43
 configurations:43
 nnodes:22
 percentage: 0.5
 edges: 115
+--
 k_value:14
 configurations:14
+--
 k_value:29
 configurations:29
+--
 k_value:58
 configurations:58
+--
 k_value:86
 configurations:86
 nnodes:22
 percentage: 0.75
 edges: 173
+--
 k_value:22
 configurations:22
+--
 k_value:43
 configurations:43
+--
 k_value:86
 configurations:86
+--
 k_value:130
 configurations:130
 nnodes:23
 percentage: 0.125
 edges: 31
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:16
 configurations:16
+--
 k_value:23
 configurations:23
 nnodes:23
 percentage: 0.25
 edges: 63
+--
 k_value:8
 configurations:8
+--
 k_value:16
 configurations:16
+--
 k_value:32
 configurations:32
+--
 k_value:47
 configurations:47
 nnodes:23
 percentage: 0.5
 edges: 126
+--
 k_value:16
 configurations:16
+--
 k_value:32
 configurations:32
+--
 k_value:63
 configurations:63
+--
 k_value:94
 configurations:94
 nnodes:23
 percentage: 0.75
 edges: 189
+--
 k_value:24
 configurations:24
+--
 k_value:47
 configurations:47
+--
 k_value:94
 configurations:94
+--
 k_value:142
 configurations:142
 nnodes:24
 percentage: 0.125
 edges: 34
+--
 k_value:4
 configurations:4
+--
 k_value:8
 configurations:8
+--
 k_value:17
 configurations:17
+--
 k_value:26
 configurations:26
 nnodes:24
 percentage: 0.25
 edges: 69
+--
 k_value:9
 configurations:9
+--
 k_value:17
 configurations:17
+--
 k_value:34
 configurations:34
+--
 k_value:52
 configurations:52
 nnodes:24
 percentage: 0.5
 edges: 138
+--
 k_value:17
 configurations:17
+--
 k_value:34
 configurations:34
+--
 k_value:69
 configurations:69
+--
 k_value:104
 configurations:104
 nnodes:24
 percentage: 0.75
 edges: 207
+--
 k_value:26
 configurations:26
+--
 k_value:52
 configurations:52
+--
 k_value:104
 configurations:104
+--
 k_value:155
 configurations:155
 nnodes:25
 percentage: 0.125
 edges: 37
+--
 k_value:5
 configurations:5
+--
 k_value:9
 configurations:9
+--
 k_value:18
 configurations:18
+--
 k_value:28
 configurations:28
 nnodes:25
 percentage: 0.25
 edges: 75
+--
 k_value:9
 configurations:9
+--
 k_value:19
 configurations:19
+--
 k_value:38
 configurations:38
+--
 k_value:56
 configurations:56
 nnodes:25
 percentage: 0.5
 edges: 150
+--
 k_value:19
 configurations:19
+--
 k_value:38
 configurations:38
+--
 k_value:75
 configurations:75
+--
 k_value:112
 configurations:112
 nnodes:25
 percentage: 0.75
 edges: 225
+--
 k_value:28
 configurations:28
+--
 k_value:56
 configurations:56
+--
 k_value:112
 configurations:112
+--
 k_value:169
 configurations:169
 nnodes:26
 percentage: 0.125
 edges: 40
+--
 k_value:5
 configurations:5
+--
 k_value:10
 configurations:10
+--
 k_value:20
 configurations:20
+--
 k_value:30
 configurations:30
 nnodes:26
 percentage: 0.25
 edges: 81
+--
 k_value:10
 configurations:10
+--
 k_value:20
 configurations:20
+--
 k_value:40
 configurations:40
+--
 k_value:61
 configurations:61
 nnodes:26
 percentage: 0.5
 edges: 162
+--
 k_value:20
 configurations:20
+--
 k_value:40
 configurations:40
+--
 k_value:81
 configurations:81
+--
 k_value:122
 configurations:122
 nnodes:26
 percentage: 0.75
 edges: 243
+--
 k_value:30
 configurations:30
+--
 k_value:61
 configurations:61
+--
 k_value:122
 configurations:122
+--
 k_value:182
 configurations:182
 nnodes:27
 percentage: 0.125
 edges: 43
+--
 k_value:5
 configurations:5
+--
 k_value:11
 configurations:11
+--
 k_value:22
 configurations:22
+--
 k_value:32
 configurations:32
 nnodes:27
 percentage: 0.25
 edges: 87
+--
 k_value:11
 configurations:11
+--
 k_value:22
 configurations:22
+--
 k_value:44
 configurations:44
+--
 k_value:65
 configurations:65
 nnodes:27
 percentage: 0.5
 edges: 175
+--
 k_value:22
 configurations:22
+--
 k_value:44
 configurations:44
+--
 k_value:88
 configurations:88
+--
 k_value:131
 configurations:131
 nnodes:27
 percentage: 0.75
 edges: 263
+--
 k_value:33
 configurations:33
+--
 k_value:66
 configurations:66
+--
 k_value:132
 configurations:132
+--
 k_value:197
 configurations:197
 nnodes:28
 percentage: 0.125
 edges: 47
+--
 k_value:6
 configurations:6
+--
 k_value:12
 configurations:12
+--
 k_value:24
 configurations:24
+--
 k_value:35
 configurations:35
 nnodes:28
 percentage: 0.25
 edges: 94
+--
 k_value:12
 configurations:12
+--
 k_value:24
 configurations:24
+--
 k_value:47
 configurations:47
+--
 k_value:70
 configurations:70
 nnodes:28
 percentage: 0.5
 edges: 189
+--
 k_value:24
 configurations:24
+--
 k_value:47
 configurations:47
+--
 k_value:94
 configurations:94
+--
 k_value:142
 configurations:142
 nnodes:28
 percentage: 0.75
 edges: 283
+--
 k_value:35
 configurations:35
+--
 k_value:71
 configurations:71
+--
 k_value:142
 configurations:142
+--
 k_value:212
 configurations:212
 nnodes:29
 percentage: 0.125
 edges: 50
+--
 k_value:6
 configurations:6
+--
 k_value:12
 configurations:12
+--
 k_value:25
 configurations:25
+--
 k_value:38
 configurations:38
 nnodes:29
 percentage: 0.25
 edges: 101
+--
 k_value:13
 configurations:13
+--
 k_value:25
 configurations:25
+--
 k_value:50
 configurations:50
+--
 k_value:76
 configurations:76
 nnodes:29
 percentage: 0.5
 edges: 203
+--
 k_value:25
 configurations:25
+--
 k_value:51
 configurations:51
+--
 k_value:102
 configurations:102
+--
 k_value:152
 configurations:152
 nnodes:29
 percentage: 0.75
 edges: 304
+--
 k_value:38
 configurations:38
+--
 k_value:76
 configurations:76
+--
 k_value:152
 configurations:152
+--
 k_value:228
 configurations:228

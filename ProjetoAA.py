@@ -64,11 +64,9 @@ def greedy_heuristic(G, k):
         if not edge_candidates:
             break
 
-        # Sort candidates and select the best
         edge_candidates.sort(key=lambda x: x[1], reverse=True)
         best_candidate = edge_candidates[0][0]
 
-        # Add the best candidate to the dominating set and update covered edges
         dominating_set.add(best_candidate)
         covered_edges.update(G.edges(best_candidate[0]))
         covered_edges.update(G.edges(best_candidate[1]))
@@ -152,6 +150,7 @@ def write_graph_basic_ex(basic, k_value):
 
 def write_graph_configurations_ex(configurations, k_value):
     f = open("./info_nodes/configurations_ex.txt", "a")
+    f.write("--\n")
     f.write("k_value:" + str(k_value) + "\n")
     f.write("configurations:" + str(configurations) + "\n")
     f.close() 
@@ -179,9 +178,24 @@ def write_graph_basic_gr(basic, k_value):
 
 def write_graph_configurations_gr(configurations, k_value):
     f = open("./info_nodes/configurations_gr.txt", "a")
+    f.write("--\n")
     f.write("k_value:" + str(k_value) + "\n")
     f.write("configurations:" + str(configurations) + "\n")
     f.close() 
+
+def write_graph_solutions_ex(solutions, k_value):
+    f = open("./info_nodes/solutions_ex.txt", "a")
+    f.write("k_value:" + str(k_value) + "\n")
+    f.write("solutions:" + str(solutions) + "\n")
+    f.close() 
+    pass
+
+def write_graph_solutions_gr(solutions, k_value):
+    f = open("./info_nodes/solutions_gr.txt", "a")
+    f.write("k_value:" + str(k_value) + "\n")
+    f.write("solutions:" + str(solutions) + "\n")
+    f.close() 
+    pass
 
 def initialize_files():
     f = open("./info_nodes/nsolutions_ex.txt", "w") #delete existing data
@@ -200,62 +214,101 @@ def initialize_files():
     f.close()
     f = open("./info_nodes/configurations_gr.txt", "w") #delete existing data
     f.close()
+    f = open("./info_nodes/solutions_ex.txt", "w") #delete existing data
+    f.close()
+    f = open("./info_nodes/solutions_gr.txt", "w") #delete existing data
+    f.close()
 
-def write_nodes_edges(nodes, percentage, nedges):
-    write_to_file(nodes, percentage, nedges, "nsolutions_ex")
-    write_to_file(nodes, percentage, nedges, "exec_time_ex")
-    write_to_file(nodes, percentage, nedges, "basic_ex")
-    write_to_file(nodes, percentage, nedges, "configurations_ex")
+def write_nodes_edges_gr(nodes, percentage, nedges): 
     write_to_file(nodes, percentage, nedges, "nsolutions_gr")
     write_to_file(nodes, percentage, nedges, "exec_time_gr")
     write_to_file(nodes, percentage, nedges, "basic_gr")
     write_to_file(nodes, percentage, nedges, "configurations_gr")
+    write_to_file(nodes, percentage, nedges, "solutions_gr")
+
+def write_nodes_edges_ex(nodes, percentage, nedges):
+    write_to_file(nodes, percentage, nedges, "nsolutions_ex")
+    write_to_file(nodes, percentage, nedges, "exec_time_ex")
+    write_to_file(nodes, percentage, nedges, "basic_ex")
+    write_to_file(nodes, percentage, nedges, "configurations_ex")
+    write_to_file(nodes, percentage, nedges, "solutions_ex")
+
+def write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue):
+    write_graph_nsolutions_gr(nsolutions, kvalue)
+    write_graph_solutions_gr(solutions, kvalue)
+    write_graph_exec_time_gr(execution_time, kvalue)
+    write_graph_basic_gr(greedy_basic, kvalue)
+    write_graph_configurations_gr(greedy_configurations, kvalue)
+
+def write_to_file_ex(nsolutions, solutions_, execution_time, exh_basic, exh_configurations, kvalue):
+    write_graph_nsolutions_ex(nsolutions, kvalue)
+    write_graph_solutions_ex(solutions_, kvalue)
+    write_graph_exec_time_ex(execution_time, kvalue)
+    write_graph_basic_ex(exh_basic, kvalue)
+    write_graph_configurations_ex(exh_configurations, kvalue)
 
 def main():
     initialize_files()
     percentages = [0.125, 0.25, 0.5, 0.75]
+    total = 0
+    correct = 0
 
     for nodes in range(4, 30):
-        
         for percentage in percentages:
             G, nedges = create_graph(nodes, percentage)
             k = [round(i*nedges) for i in percentages]
-            write_nodes_edges(nodes, percentage, nedges)
+            write_nodes_edges_gr(nodes, percentage, nedges)
+
+            if nodes<=8:
+                write_nodes_edges_ex(nodes, percentage, nedges)
+                pass
 
             for kvalue in k:
-                #exaustive
-                if nodes<=8:
-                    start_time = time.time()
-                    solutions, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
-                    end_time = time.time()
-                    execution_time = end_time-start_time
-                    nsolutions = len(solutions)
-                    
-                    write_graph_nsolutions_ex(nsolutions, kvalue)
-                    write_graph_exec_time_ex(execution_time, kvalue)
-                    write_graph_basic_ex(exh_basic, kvalue)
-                    write_graph_configurations_ex(exh_configurations, kvalue)
-
-                    #print one of the graphs
-                    if solutions!=[] and percentage==0.75 and kvalue==8 and nodes==7:
-                        draw_edges_and_graph(G, solutions[0])
-
-        
-                #heuristic
                 start_time = time.time()
                 solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
                 end_time = time.time()
-                #nsolutions is always gonna be 1 or 0
                 execution_time = end_time-start_time
+
                 if solutions:
                     nsolutions = 1
                 else:
                     nsolutions = 0
-                write_graph_nsolutions_gr(nsolutions, kvalue)
-                write_graph_exec_time_gr(execution_time, kvalue)
-                write_graph_basic_gr(greedy_basic, kvalue)
-                write_graph_configurations_gr(greedy_configurations, kvalue)
-            
+
+                write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue)
+
+                #exaustive
+                if nodes<=8:
+                    start_time = time.time()
+                    solutions_, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
+                    end_time = time.time()
+                    execution_time = end_time-start_time
+                    nsolutions = len(solutions_)
+                    
+                    write_to_file_ex(nsolutions, solutions_, execution_time, exh_basic, exh_configurations, kvalue)
+
+                    if solutions_!=[] and percentage==0.75 and kvalue==8 and nodes==7:
+                        draw_edges_and_graph(G, solutions_[0])
+
+                    #check if solution is accurate
+                    #solutions_ -> exhaustive solutions
+                    #solutions -> greedy solutions
+                    solutions_ = [list(solution) for solution in solutions_]
+                    total+=1
+                    correct = (correct+1) if is_solution_in_solutions(solutions, solutions_) else correct
+                    
+    correct_wrong(correct, total)
+
+def is_solution_in_solutions(solution, solutions):
+    #solution -> greedy
+    #solutions -> exhaustive
+    solution_set = set(solution)
+    for s in solutions:
+        if solution_set == set(s):
+            return True
+    if solutions == [] and solution_set == set():
+        return True
+    return False
+                          
 def plot_basic_op_gr_ex():
 
     with open("./info_nodes/basic_ex.txt", "r") as file:
@@ -408,6 +461,66 @@ def plot_numb_solution_ex():
 
     plt.savefig("./images/numb_solutions_ex_k_values.png")
     
+def plot_rel_time_operations():
+    with open("./info_nodes/basic_gr.txt", "r") as file:
+        lines_gr = file.readlines()
+
+    basic_op_k_05_1 = [] #all these should, in the end, have len == 60
+    basic_op_k_05_2 = []
+    basic_op_k_05_3 = []
+    basic_op_k_05_4 = []
+
+    for i in range(0, len(lines_gr), 60):
+        # Parse relevant information from each block of data
+        basic_op_k_05_1.append(int(lines_gr[i + 11].split(":")[1].strip()))
+        basic_op_k_05_2.append(int(lines_gr[i + 26].split(":")[1].strip()))
+        basic_op_k_05_3.append(int(lines_gr[i + 41].split(":")[1].strip()))
+        basic_op_k_05_4.append(int(lines_gr[i + 56].split(":")[1].strip()))
+
+    with open("./info_nodes/exec_time_gr.txt", "r") as file:
+        lines_gr = file.readlines()
+
+    exec_time_k_05_1 = [] #all these should, in the end, have len == 60
+    exec_time_k_05_2 = []
+    exec_time_k_05_3 = []
+    exec_time_k_05_4 = []
+
+    for i in range(0, len(lines_gr), 60):
+        exec_time_k_05_1.append(float(lines_gr[i + 14].split(":")[1].strip()))
+        exec_time_k_05_2.append(float(lines_gr[i + 29].split(":")[1].strip()))
+        exec_time_k_05_3.append(float(lines_gr[i + 44].split(":")[1].strip()))
+        exec_time_k_05_4.append(float(lines_gr[i + 59].split(":")[1].strip()))
+
+    _, hor = plt.subplots(4, 1, figsize=(8,12))
+
+    hor[0].plot(exec_time_k_05_1, basic_op_k_05_1)
+    hor[0].set_title('Relation between executed time and basic operations with k = 12.5%')
+
+    hor[1].plot(exec_time_k_05_2, basic_op_k_05_2)
+    hor[1].set_title('Relation between executed time and basic operations with k = 25%')
+
+    hor[2].plot(exec_time_k_05_3, basic_op_k_05_3)
+    hor[2].set_title('Relation between executed time and basic operations with k = 50%')
+
+    hor[3].plot(exec_time_k_05_4, basic_op_k_05_2)
+    hor[3].set_title('Relation between executed time and basic operations with k = 75%')
+
+    for element in hor:
+        element.set(xlabel='Executed time', ylabel='Number of basic operations')
+
+    plt.tight_layout()
+
+    plt.savefig("./images/relations.png")
+    pass
+
+def correct_wrong(correct, total):
+    categories = ['Correct', 'Incorrect']
+    values = [correct, total - correct]
+
+    plt.bar(categories, values, color=['green', 'red'], width=0.3, align='center')
+    plt.title('Greedy solutions comparing to exhaustive solutions')
+    plt.ylabel('Count')
+    plt.savefig("./images/correct_solutions.png")
 
 def print_plots():
     #plot 1 - nopertaions / number of nodes - for a given k - greedy vs heuristic
@@ -418,8 +531,13 @@ def print_plots():
 
     #plot 3 - numb solutions / number of nodes - for a given k - greedy vs heuristic
     plot_numb_solution_ex()
+
+    #plot 4 - 4 graphs with the relation between basic operations and time taken to perform
+    plot_rel_time_operations()
+
     pass
 
 if __name__=="__main__":
     main()
     print_plots()
+    
