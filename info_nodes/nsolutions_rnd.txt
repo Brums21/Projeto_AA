@@ -1,0 +1,33 @@
+nnodes:13
+percentage: 100%
+edges: 13
+k_value:2
+nsolutions:0
+k_value:3
+nsolutions:0
+k_value:6
+nsolutions:1
+k_value:10
+nsolutions:1
+nnodes:250
+percentage: 100%
+edges: 1273
+k_value:159
+nsolutions:0
+k_value:318
+nsolutions:1
+k_value:636
+nsolutions:1
+k_value:955
+nsolutions:1
+nnodes:1000000
+percentage: 100%
+edges: 7586063
+k_value:948258
+nsolutions:0
+k_value:1896516
+nsolutions:0
+k_value:3793032
+nsolutions:0
+k_value:5689547
+nsolutions:1
