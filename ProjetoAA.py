@@ -36,7 +36,7 @@ def exhaustive_search(graph, k):
                 is_dominating = False
                 break
         if is_dominating:
-            solutions.append(subset)
+            solutions.append(list(subset))
     
     return solutions, exh_basic_operations, exh_tested_configurations
 
@@ -80,18 +80,19 @@ def greedy_heuristic(G, k):
 
     return list(dominating_set) if len(dominating_set) <= k else None, grd_basic_operations, grd_tested_configurations
 
-def random_algorithm(graph, k, num_seconds):
+def random_algorithm(graph, k, num_configurations):
     global random_operations
     global random_configurations
+    tries = num_configurations
     random_operations = 0
     random_configurations = 0
     solution = None
     tested_solutions = set()
     start_time = time.time()
-    finish_time = start_time + num_seconds
-    while time.time() < finish_time:
+    while tries>0:
         candidate = random.sample(list(graph.edges()), k)
         random_operations += 1
+        tries -= 1
         if str(candidate) in tested_solutions:
             random_configurations += 1
             continue
@@ -180,9 +181,6 @@ def main():
 
                 wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue)
             
-            if nodes<=8:
-                correct = (correct+1) if is_solution_in_solutions(solutions, solutions_ex) else correct
-                print(correct)
 
     # random:
     """ for nodes in range(4, 600):
@@ -219,7 +217,7 @@ def main():
         k = [round(i*graph.number_of_edges()) for i in percentages]
         print("graph:", graph)
         for kvalue in k:
-            solution_random, random_exec_time, numb_rand_basic, numb_rand_config = random_algorithm(graph, kvalue, 60*2)
+            solution_random, random_exec_time, numb_rand_basic, numb_rand_config = random_algorithm(graph, kvalue, 3)
             
             if solution_random:
                 nsolutions = 1
