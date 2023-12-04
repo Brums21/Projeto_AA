@@ -1,0 +1,1560 @@
+nnodes:4
+percentage: 0.125
+edges: 0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+nnodes:4
+percentage: 0.25
+edges: 1
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+nnodes:4
+percentage: 0.5
+edges: 3
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0009908676147460938
+--
+k_value:2
+execution_time:0.0
+nnodes:4
+percentage: 0.75
+edges: 4
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0009965896606445312
+nnodes:5
+percentage: 0.125
+edges: 1
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+nnodes:5
+percentage: 0.25
+edges: 2
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:5
+percentage: 0.5
+edges: 5
+--
+k_value:1
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0009970664978027344
+nnodes:5
+percentage: 0.75
+edges: 7
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0010008811950683594
+--
+k_value:4
+execution_time:0.0
+--
+k_value:5
+execution_time:0.0008447170257568359
+nnodes:6
+percentage: 0.125
+edges: 1
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+nnodes:6
+percentage: 0.25
+edges: 3
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:6
+percentage: 0.5
+edges: 7
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.00099945068359375
+--
+k_value:4
+execution_time:0.0
+--
+k_value:5
+execution_time:0.0009975433349609375
+nnodes:6
+percentage: 0.75
+edges: 11
+--
+k_value:1
+execution_time:0.0009989738464355469
+--
+k_value:3
+execution_time:0.0009953975677490234
+--
+k_value:6
+execution_time:0.0
+--
+k_value:8
+execution_time:0.001035928726196289
+nnodes:7
+percentage: 0.125
+edges: 2
+--
+k_value:0
+execution_time:0.0
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:7
+percentage: 0.25
+edges: 5
+--
+k_value:1
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0005156993865966797
+nnodes:7
+percentage: 0.5
+edges: 10
+--
+k_value:1
+execution_time:0.0010013580322265625
+--
+k_value:2
+execution_time:0.0
+--
+k_value:5
+execution_time:0.0010085105895996094
+--
+k_value:8
+execution_time:0.001005411148071289
+nnodes:7
+percentage: 0.75
+edges: 15
+--
+k_value:2
+execution_time:0.0015091896057128906
+--
+k_value:4
+execution_time:0.0020072460174560547
+--
+k_value:8
+execution_time:0.0019991397857666016
+--
+k_value:11
+execution_time:0.002512693405151367
+nnodes:8
+percentage: 0.125
+edges: 3
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+nnodes:8
+percentage: 0.25
+edges: 7
+--
+k_value:1
+execution_time:0.0009899139404296875
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0009982585906982422
+--
+k_value:5
+execution_time:0.0009794235229492188
+nnodes:8
+percentage: 0.5
+edges: 14
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.001010894775390625
+--
+k_value:7
+execution_time:0.0009980201721191406
+--
+k_value:10
+execution_time:0.001997709274291992
+nnodes:8
+percentage: 0.75
+edges: 21
+--
+k_value:3
+execution_time:0.000993490219116211
+--
+k_value:5
+execution_time:0.0020418167114257812
+--
+k_value:10
+execution_time:0.002994060516357422
+--
+k_value:16
+execution_time:0.0035233497619628906
+nnodes:9
+percentage: 0.125
+edges: 4
+--
+k_value:0
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0
+nnodes:9
+percentage: 0.25
+edges: 9
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0
+--
+k_value:7
+execution_time:0.00099945068359375
+nnodes:9
+percentage: 0.5
+edges: 18
+--
+k_value:2
+execution_time:0.0009965896606445312
+--
+k_value:4
+execution_time:0.0009975433349609375
+--
+k_value:9
+execution_time:0.003010988235473633
+--
+k_value:14
+execution_time:0.00550079345703125
+nnodes:9
+percentage: 0.75
+edges: 27
+--
+k_value:3
+execution_time:0.001001119613647461
+--
+k_value:7
+execution_time:0.004554033279418945
+--
+k_value:14
+execution_time:0.003994464874267578
+--
+k_value:20
+execution_time:0.006011962890625
+nnodes:10
+percentage: 0.125
+edges: 5
+--
+k_value:1
+execution_time:0.0
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0009968280792236328
+--
+k_value:4
+execution_time:0.0
+nnodes:10
+percentage: 0.25
+edges: 11
+--
+k_value:1
+execution_time:0.0009932518005371094
+--
+k_value:3
+execution_time:0.0009958744049072266
+--
+k_value:6
+execution_time:0.001016378402709961
+--
+k_value:8
+execution_time:0.0010323524475097656
+nnodes:10
+percentage: 0.5
+edges: 22
+--
+k_value:3
+execution_time:0.001012563705444336
+--
+k_value:6
+execution_time:0.0019989013671875
+--
+k_value:11
+execution_time:0.003034830093383789
+--
+k_value:16
+execution_time:0.0051517486572265625
+nnodes:10
+percentage: 0.75
+edges: 33
+--
+k_value:4
+execution_time:0.0019257068634033203
+--
+k_value:8
+execution_time:0.003001689910888672
+--
+k_value:16
+execution_time:0.005011081695556641
+--
+k_value:25
+execution_time:0.010173797607421875
+nnodes:11
+percentage: 0.125
+edges: 6
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0
+nnodes:11
+percentage: 0.25
+edges: 13
+--
+k_value:2
+execution_time:0.0010006427764892578
+--
+k_value:3
+execution_time:0.0
+--
+k_value:6
+execution_time:0.000997304916381836
+--
+k_value:10
+execution_time:0.0010330677032470703
+nnodes:11
+percentage: 0.5
+edges: 27
+--
+k_value:3
+execution_time:0.0015101432800292969
+--
+k_value:7
+execution_time:0.0020334720611572266
+--
+k_value:14
+execution_time:0.003688335418701172
+--
+k_value:20
+execution_time:0.003998517990112305
+nnodes:11
+percentage: 0.75
+edges: 41
+--
+k_value:5
+execution_time:0.003551006317138672
+--
+k_value:10
+execution_time:0.005026817321777344
+--
+k_value:20
+execution_time:0.009007692337036133
+--
+k_value:31
+execution_time:0.010681629180908203
+nnodes:12
+percentage: 0.125
+edges: 8
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0015094280242919922
+--
+k_value:6
+execution_time:0.0
+nnodes:12
+percentage: 0.25
+edges: 16
+--
+k_value:2
+execution_time:0.0009999275207519531
+--
+k_value:4
+execution_time:0.0
+--
+k_value:8
+execution_time:0.0009429454803466797
+--
+k_value:12
+execution_time:0.0009992122650146484
+nnodes:12
+percentage: 0.5
+edges: 33
+--
+k_value:4
+execution_time:0.001634359359741211
+--
+k_value:8
+execution_time:0.0030050277709960938
+--
+k_value:16
+execution_time:0.005517244338989258
+--
+k_value:25
+execution_time:0.006507396697998047
+nnodes:12
+percentage: 0.75
+edges: 49
+--
+k_value:6
+execution_time:0.0040323734283447266
+--
+k_value:12
+execution_time:0.0075871944427490234
+--
+k_value:24
+execution_time:0.013772010803222656
+--
+k_value:37
+execution_time:0.015612363815307617
+nnodes:13
+percentage: 0.125
+edges: 9
+--
+k_value:1
+execution_time:0.0
+--
+k_value:2
+execution_time:0.0009608268737792969
+--
+k_value:4
+execution_time:0.001001119613647461
+--
+k_value:7
+execution_time:0.0009980201721191406
+nnodes:13
+percentage: 0.25
+edges: 19
+--
+k_value:2
+execution_time:0.0
+--
+k_value:5
+execution_time:0.0009999275207519531
+--
+k_value:10
+execution_time:0.002034425735473633
+--
+k_value:14
+execution_time:0.0019788742065429688
+nnodes:13
+percentage: 0.5
+edges: 39
+--
+k_value:5
+execution_time:0.001992940902709961
+--
+k_value:10
+execution_time:0.008588790893554688
+--
+k_value:20
+execution_time:0.007530927658081055
+--
+k_value:29
+execution_time:0.008518457412719727
+nnodes:13
+percentage: 0.75
+edges: 58
+--
+k_value:7
+execution_time:0.006522417068481445
+--
+k_value:14
+execution_time:0.011181354522705078
+--
+k_value:29
+execution_time:0.028591156005859375
+--
+k_value:44
+execution_time:0.02278304100036621
+nnodes:14
+percentage: 0.125
+edges: 11
+--
+k_value:1
+execution_time:0.0010068416595458984
+--
+k_value:3
+execution_time:0.0
+--
+k_value:6
+execution_time:0.0
+--
+k_value:8
+execution_time:0.0010051727294921875
+nnodes:14
+percentage: 0.25
+edges: 22
+--
+k_value:3
+execution_time:0.0019974708557128906
+--
+k_value:6
+execution_time:0.0020346641540527344
+--
+k_value:11
+execution_time:0.0020303726196289062
+--
+k_value:16
+execution_time:0.003034353256225586
+nnodes:14
+percentage: 0.5
+edges: 45
+--
+k_value:6
+execution_time:0.0029947757720947266
+--
+k_value:11
+execution_time:0.007547616958618164
+--
+k_value:22
+execution_time:0.008542776107788086
+--
+k_value:34
+execution_time:0.011610031127929688
+nnodes:14
+percentage: 0.75
+edges: 68
+--
+k_value:8
+execution_time:0.009548664093017578
+--
+k_value:17
+execution_time:0.016704559326171875
+--
+k_value:34
+execution_time:0.025763988494873047
+--
+k_value:51
+execution_time:0.03482389450073242
+nnodes:15
+percentage: 0.125
+edges: 13
+--
+k_value:2
+execution_time:0.0
+--
+k_value:3
+execution_time:0.001016378402709961
+--
+k_value:6
+execution_time:0.0
+--
+k_value:10
+execution_time:0.000990152359008789
+nnodes:15
+percentage: 0.25
+edges: 26
+--
+k_value:3
+execution_time:0.0010297298431396484
+--
+k_value:6
+execution_time:0.0020301342010498047
+--
+k_value:13
+execution_time:0.0020394325256347656
+--
+k_value:20
+execution_time:0.004039287567138672
+nnodes:15
+percentage: 0.5
+edges: 52
+--
+k_value:6
+execution_time:0.005027055740356445
+--
+k_value:13
+execution_time:0.008582592010498047
+--
+k_value:26
+execution_time:0.01516413688659668
+--
+k_value:39
+execution_time:0.0186312198638916
+nnodes:15
+percentage: 0.75
+edges: 78
+--
+k_value:10
+execution_time:0.010547876358032227
+--
+k_value:20
+execution_time:0.019169330596923828
+--
+k_value:39
+execution_time:0.0318608283996582
+--
+k_value:58
+execution_time:0.04273819923400879
+nnodes:16
+percentage: 0.125
+edges: 15
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0010013580322265625
+--
+k_value:8
+execution_time:0.0009999275207519531
+--
+k_value:11
+execution_time:0.0010294914245605469
+nnodes:16
+percentage: 0.25
+edges: 30
+--
+k_value:4
+execution_time:0.0016257762908935547
+--
+k_value:8
+execution_time:0.0029671192169189453
+--
+k_value:15
+execution_time:0.0035026073455810547
+--
+k_value:22
+execution_time:0.004548549652099609
+nnodes:16
+percentage: 0.5
+edges: 60
+--
+k_value:8
+execution_time:0.006120204925537109
+--
+k_value:15
+execution_time:0.018755197525024414
+--
+k_value:30
+execution_time:0.01604008674621582
+--
+k_value:45
+execution_time:0.023056745529174805
+nnodes:16
+percentage: 0.75
+edges: 90
+--
+k_value:11
+execution_time:0.014630794525146484
+--
+k_value:22
+execution_time:0.028884410858154297
+--
+k_value:45
+execution_time:0.045813798904418945
+--
+k_value:68
+execution_time:0.057889699935913086
+nnodes:17
+percentage: 0.125
+edges: 17
+--
+k_value:2
+execution_time:0.0
+--
+k_value:4
+execution_time:0.0012238025665283203
+--
+k_value:8
+execution_time:0.0009598731994628906
+--
+k_value:13
+execution_time:0.0010323524475097656
+nnodes:17
+percentage: 0.25
+edges: 34
+--
+k_value:4
+execution_time:0.0015006065368652344
+--
+k_value:8
+execution_time:0.006028413772583008
+--
+k_value:17
+execution_time:0.004580497741699219
+--
+k_value:26
+execution_time:0.005033016204833984
+nnodes:17
+percentage: 0.5
+edges: 68
+--
+k_value:8
+execution_time:0.006577253341674805
+--
+k_value:17
+execution_time:0.026267528533935547
+--
+k_value:34
+execution_time:0.021990537643432617
+--
+k_value:51
+execution_time:0.029139995574951172
+nnodes:17
+percentage: 0.75
+edges: 102
+--
+k_value:13
+execution_time:0.019095659255981445
+--
+k_value:26
+execution_time:0.03390836715698242
+--
+k_value:51
+execution_time:0.05789685249328613
+--
+k_value:76
+execution_time:0.07390904426574707
+nnodes:18
+percentage: 0.125
+edges: 19
+--
+k_value:2
+execution_time:0.0
+--
+k_value:5
+execution_time:0.0010151863098144531
+--
+k_value:10
+execution_time:0.0010387897491455078
+--
+k_value:14
+execution_time:0.000997781753540039
+nnodes:18
+percentage: 0.25
+edges: 38
+--
+k_value:5
+execution_time:0.0015056133270263672
+--
+k_value:10
+execution_time:0.003033876419067383
+--
+k_value:19
+execution_time:0.005602598190307617
+--
+k_value:28
+execution_time:0.007506132125854492
+nnodes:18
+percentage: 0.5
+edges: 76
+--
+k_value:10
+execution_time:0.01210784912109375
+--
+k_value:19
+execution_time:0.017200946807861328
+--
+k_value:38
+execution_time:0.030234098434448242
+--
+k_value:57
+execution_time:0.03853034973144531
+nnodes:18
+percentage: 0.75
+edges: 114
+--
+k_value:14
+execution_time:0.023308277130126953
+--
+k_value:28
+execution_time:0.04293942451477051
+--
+k_value:57
+execution_time:0.07985210418701172
+--
+k_value:86
+execution_time:0.10152363777160645
+nnodes:19
+percentage: 0.125
+edges: 21
+--
+k_value:3
+execution_time:0.0020334720611572266
+--
+k_value:5
+execution_time:0.003518819808959961
+--
+k_value:10
+execution_time:0.0010221004486083984
+--
+k_value:16
+execution_time:0.0019953250885009766
+nnodes:19
+percentage: 0.25
+edges: 42
+--
+k_value:5
+execution_time:0.002004384994506836
+--
+k_value:10
+execution_time:0.0029985904693603516
+--
+k_value:21
+execution_time:0.007014036178588867
+--
+k_value:32
+execution_time:0.009545564651489258
+nnodes:19
+percentage: 0.5
+edges: 85
+--
+k_value:11
+execution_time:0.011105537414550781
+--
+k_value:21
+execution_time:0.020745038986206055
+--
+k_value:42
+execution_time:0.03572225570678711
+--
+k_value:64
+execution_time:0.04839777946472168
+nnodes:19
+percentage: 0.75
+edges: 128
+--
+k_value:16
+execution_time:0.03153657913208008
+--
+k_value:32
+execution_time:0.0642251968383789
+--
+k_value:64
+execution_time:0.0959312915802002
+--
+k_value:96
+execution_time:0.12388920783996582
+nnodes:20
+percentage: 0.125
+edges: 23
+--
+k_value:3
+execution_time:0.0
+--
+k_value:6
+execution_time:0.0010368824005126953
+--
+k_value:12
+execution_time:0.0019974708557128906
+--
+k_value:17
+execution_time:0.001998424530029297
+nnodes:20
+percentage: 0.25
+edges: 47
+--
+k_value:6
+execution_time:0.003000974655151367
+--
+k_value:12
+execution_time:0.005508899688720703
+--
+k_value:24
+execution_time:0.01254582405090332
+--
+k_value:35
+execution_time:0.012280702590942383
+nnodes:20
+percentage: 0.5
+edges: 95
+--
+k_value:12
+execution_time:0.014319896697998047
+--
+k_value:24
+execution_time:0.02702498435974121
+--
+k_value:48
+execution_time:0.04713582992553711
+--
+k_value:71
+execution_time:0.06628108024597168
+nnodes:20
+percentage: 0.75
+edges: 142
+--
+k_value:18
+execution_time:0.045653581619262695
+--
+k_value:36
+execution_time:0.09152960777282715
+--
+k_value:71
+execution_time:0.16521501541137695
+--
+k_value:106
+execution_time:0.29564738273620605
+nnodes:21
+percentage: 0.125
+edges: 26
+--
+k_value:3
+execution_time:0.001003265380859375
+--
+k_value:6
+execution_time:0.0019943714141845703
+--
+k_value:13
+execution_time:0.00400090217590332
+--
+k_value:20
+execution_time:0.00500035285949707
+nnodes:21
+percentage: 0.25
+edges: 52
+--
+k_value:6
+execution_time:0.004000186920166016
+--
+k_value:13
+execution_time:0.01656365394592285
+--
+k_value:26
+execution_time:0.02955770492553711
+--
+k_value:39
+execution_time:0.028821706771850586
+nnodes:21
+percentage: 0.5
+edges: 105
+--
+k_value:13
+execution_time:0.031204938888549805
+--
+k_value:26
+execution_time:0.05668067932128906
+--
+k_value:52
+execution_time:0.09956836700439453
+--
+k_value:79
+execution_time:0.1166071891784668
+nnodes:21
+percentage: 0.75
+edges: 157
+--
+k_value:20
+execution_time:0.062354087829589844
+--
+k_value:39
+execution_time:0.10332798957824707
+--
+k_value:78
+execution_time:0.18931961059570312
+--
+k_value:118
+execution_time:0.21761417388916016
+nnodes:22
+percentage: 0.125
+edges: 28
+--
+k_value:4
+execution_time:0.0010416507720947266
+--
+k_value:7
+execution_time:0.0020418167114257812
+--
+k_value:14
+execution_time:0.0030045509338378906
+--
+k_value:21
+execution_time:0.0055620670318603516
+nnodes:22
+percentage: 0.25
+edges: 57
+--
+k_value:7
+execution_time:0.004553318023681641
+--
+k_value:14
+execution_time:0.008581876754760742
+--
+k_value:28
+execution_time:0.01418924331665039
+--
+k_value:43
+execution_time:0.017135143280029297
+nnodes:22
+percentage: 0.5
+edges: 115
+--
+k_value:14
+execution_time:0.02319169044494629
+--
+k_value:29
+execution_time:0.04256176948547363
+--
+k_value:58
+execution_time:0.09796714782714844
+--
+k_value:86
+execution_time:0.13584136962890625
+nnodes:22
+percentage: 0.75
+edges: 173
+--
+k_value:22
+execution_time:0.06540155410766602
+--
+k_value:43
+execution_time:0.12200188636779785
+--
+k_value:86
+execution_time:0.19957351684570312
+--
+k_value:130
+execution_time:0.24802541732788086
+nnodes:23
+percentage: 0.125
+edges: 31
+--
+k_value:4
+execution_time:0.0010004043579101562
+--
+k_value:8
+execution_time:0.0019979476928710938
+--
+k_value:16
+execution_time:0.0055811405181884766
+--
+k_value:23
+execution_time:0.0050296783447265625
+nnodes:23
+percentage: 0.25
+edges: 63
+--
+k_value:8
+execution_time:0.005682945251464844
+--
+k_value:16
+execution_time:0.010156869888305664
+--
+k_value:32
+execution_time:0.016585350036621094
+--
+k_value:47
+execution_time:0.020753860473632812
+nnodes:23
+percentage: 0.5
+edges: 126
+--
+k_value:16
+execution_time:0.027197599411010742
+--
+k_value:32
+execution_time:0.054331064224243164
+--
+k_value:63
+execution_time:0.10164070129394531
+--
+k_value:94
+execution_time:0.11565804481506348
+nnodes:23
+percentage: 0.75
+edges: 189
+--
+k_value:24
+execution_time:0.08309745788574219
+--
+k_value:47
+execution_time:0.14536476135253906
+--
+k_value:94
+execution_time:0.2526535987854004
+--
+k_value:142
+execution_time:0.32339930534362793
+nnodes:24
+percentage: 0.125
+edges: 34
+--
+k_value:4
+execution_time:0.0009996891021728516
+--
+k_value:8
+execution_time:0.002521038055419922
+--
+k_value:17
+execution_time:0.004952192306518555
+--
+k_value:26
+execution_time:0.006550788879394531
+nnodes:24
+percentage: 0.25
+edges: 69
+--
+k_value:9
+execution_time:0.006592988967895508
+--
+k_value:17
+execution_time:0.010584831237792969
+--
+k_value:34
+execution_time:0.02065443992614746
+--
+k_value:52
+execution_time:0.024797677993774414
+nnodes:24
+percentage: 0.5
+edges: 138
+--
+k_value:17
+execution_time:0.041155338287353516
+--
+k_value:34
+execution_time:0.06150174140930176
+--
+k_value:69
+execution_time:0.10860037803649902
+--
+k_value:104
+execution_time:0.14132261276245117
+nnodes:24
+percentage: 0.75
+edges: 207
+--
+k_value:26
+execution_time:0.0954735279083252
+--
+k_value:52
+execution_time:0.1712179183959961
+--
+k_value:104
+execution_time:0.32660460472106934
+--
+k_value:155
+execution_time:0.430849552154541
+nnodes:25
+percentage: 0.125
+edges: 37
+--
+k_value:5
+execution_time:0.0019979476928710938
+--
+k_value:9
+execution_time:0.0035021305084228516
+--
+k_value:18
+execution_time:0.004951000213623047
+--
+k_value:28
+execution_time:0.0065250396728515625
+nnodes:25
+percentage: 0.25
+edges: 75
+--
+k_value:9
+execution_time:0.007512569427490234
+--
+k_value:19
+execution_time:0.013511896133422852
+--
+k_value:38
+execution_time:0.025032997131347656
+--
+k_value:56
+execution_time:0.032082557678222656
+nnodes:25
+percentage: 0.5
+edges: 150
+--
+k_value:19
+execution_time:0.0473330020904541
+--
+k_value:38
+execution_time:0.0848841667175293
+--
+k_value:75
+execution_time:0.1477510929107666
+--
+k_value:112
+execution_time:0.19330358505249023
+nnodes:25
+percentage: 0.75
+edges: 225
+--
+k_value:28
+execution_time:0.1369471549987793
+--
+k_value:56
+execution_time:0.24124836921691895
+--
+k_value:112
+execution_time:0.4607071876525879
+--
+k_value:169
+execution_time:0.5106863975524902
+nnodes:26
+percentage: 0.125
+edges: 40
+--
+k_value:5
+execution_time:0.002027750015258789
+--
+k_value:10
+execution_time:0.003582477569580078
+--
+k_value:20
+execution_time:0.0070056915283203125
+--
+k_value:30
+execution_time:0.007008552551269531
+nnodes:26
+percentage: 0.25
+edges: 81
+--
+k_value:10
+execution_time:0.020190000534057617
+--
+k_value:20
+execution_time:0.017740726470947266
+--
+k_value:40
+execution_time:0.04147219657897949
+--
+k_value:61
+execution_time:0.050165653228759766
+nnodes:26
+percentage: 0.5
+edges: 162
+--
+k_value:20
+execution_time:0.05222129821777344
+--
+k_value:40
+execution_time:0.0926661491394043
+--
+k_value:81
+execution_time:0.16322803497314453
+--
+k_value:122
+execution_time:0.1998274326324463
+nnodes:26
+percentage: 0.75
+edges: 243
+--
+k_value:30
+execution_time:0.14204049110412598
+--
+k_value:61
+execution_time:0.264845609664917
+--
+k_value:122
+execution_time:0.4874861240386963
+--
+k_value:182
+execution_time:0.595916748046875
+nnodes:27
+percentage: 0.125
+edges: 43
+--
+k_value:5
+execution_time:0.002035856246948242
+--
+k_value:11
+execution_time:0.004190206527709961
+--
+k_value:22
+execution_time:0.007520437240600586
+--
+k_value:32
+execution_time:0.013159513473510742
+nnodes:27
+percentage: 0.25
+edges: 87
+--
+k_value:11
+execution_time:0.010120153427124023
+--
+k_value:22
+execution_time:0.020163536071777344
+--
+k_value:44
+execution_time:0.035633087158203125
+--
+k_value:65
+execution_time:0.04305553436279297
+nnodes:27
+percentage: 0.5
+edges: 175
+--
+k_value:22
+execution_time:0.06736421585083008
+--
+k_value:44
+execution_time:0.13362765312194824
+--
+k_value:88
+execution_time:0.19172310829162598
+--
+k_value:131
+execution_time:0.2694082260131836
+nnodes:27
+percentage: 0.75
+edges: 263
+--
+k_value:33
+execution_time:0.20299100875854492
+--
+k_value:66
+execution_time:0.37044215202331543
+--
+k_value:132
+execution_time:0.6585915088653564
+--
+k_value:197
+execution_time:0.7571461200714111
+nnodes:28
+percentage: 0.125
+edges: 47
+--
+k_value:6
+execution_time:0.003029346466064453
+--
+k_value:12
+execution_time:0.006074428558349609
+--
+k_value:24
+execution_time:0.009155988693237305
+--
+k_value:35
+execution_time:0.012143135070800781
+nnodes:28
+percentage: 0.25
+edges: 94
+--
+k_value:12
+execution_time:0.013824224472045898
+--
+k_value:24
+execution_time:0.02760791778564453
+--
+k_value:47
+execution_time:0.05043768882751465
+--
+k_value:70
+execution_time:0.07845449447631836
+nnodes:28
+percentage: 0.5
+edges: 189
+--
+k_value:24
+execution_time:0.11349368095397949
+--
+k_value:47
+execution_time:0.21362566947937012
+--
+k_value:94
+execution_time:0.30696773529052734
+--
+k_value:142
+execution_time:0.3568298816680908
+nnodes:28
+percentage: 0.75
+edges: 283
+--
+k_value:35
+execution_time:0.25649333000183105
+--
+k_value:71
+execution_time:0.428358793258667
+--
+k_value:142
+execution_time:0.672919511795044
+--
+k_value:212
+execution_time:0.9206657409667969
+nnodes:29
+percentage: 0.125
+edges: 50
+--
+k_value:6
+execution_time:0.003998994827270508
+--
+k_value:12
+execution_time:0.006531715393066406
+--
+k_value:25
+execution_time:0.010581016540527344
+--
+k_value:38
+execution_time:0.012548685073852539
+nnodes:29
+percentage: 0.25
+edges: 101
+--
+k_value:13
+execution_time:0.016488313674926758
+--
+k_value:25
+execution_time:0.03153800964355469
+--
+k_value:50
+execution_time:0.05391550064086914
+--
+k_value:76
+execution_time:0.0740811824798584
+nnodes:29
+percentage: 0.5
+edges: 203
+--
+k_value:25
+execution_time:0.10198092460632324
+--
+k_value:51
+execution_time:0.17168593406677246
+--
+k_value:102
+execution_time:0.3238332271575928
+--
+k_value:152
+execution_time:0.41608691215515137
+nnodes:29
+percentage: 0.75
+edges: 304
+--
+k_value:38
+execution_time:0.25491809844970703
+--
+k_value:76
+execution_time:0.46103382110595703
+--
+k_value:152
+execution_time:0.8063664436340332
+--
+k_value:228
+execution_time:1.0524921417236328

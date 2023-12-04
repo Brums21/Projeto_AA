@@ -121,8 +121,6 @@ def is_valid_solution(graph, candidate):
 
 
 def is_solution_in_solutions(solution, solutions):
-    #solution -> greedy
-    #solutions -> exhaustive
     solution_set = set(solution)
     for s in solutions:
         if solution_set == set(s):
@@ -137,16 +135,38 @@ def main():
     total = 0
     correct = 0
 
-    """ for nodes in range(4, 60):
+    # exhaustive:
+    for nodes in range(4, 9):
+        for percentage in percentages:
+            G, nedges = cg.create_graph(nodes, percentage)
+            k = [round(i*nedges) for i in percentages]
+            
+            wg.write_nodes_edges_ex(nodes, percentage, nedges)
+                
+            for kvalue in k:
+
+                start_time = time.time()
+                solutions_ex, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
+                end_time = time.time()
+                execution_time = end_time-start_time
+                nsolutions = len(solutions_ex)
+                
+                wg.write_to_file_ex(nsolutions, solutions_ex, execution_time, exh_basic, exh_configurations, kvalue)
+
+                # draw one exemaple graph
+                if solutions_ex!=[] and percentage==0.75 and kvalue==8 and nodes==7:
+                    pg.draw_edges_and_graph(G, solutions_ex[0])
+
+                solutions_ex = [list(solution) for solution in solutions_ex]
+                total+=1
+
+    # greedy
+    for nodes in range(4, 30):
         for percentage in percentages:
             G, nedges = cg.create_graph(nodes, percentage)
             k = [round(i*nedges) for i in percentages]
             wg.write_nodes_edges_gr(nodes, percentage, nedges)
-
-            if nodes<=8:
-                wg.write_nodes_edges_ex(nodes, percentage, nedges)
-                pass
-
+            
             for kvalue in k:
                 start_time = time.time()
                 solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
@@ -159,32 +179,36 @@ def main():
                     nsolutions = 0
 
                 wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue)
+            
+            if nodes<=8:
+                correct = (correct+1) if is_solution_in_solutions(solutions, solutions_ex) else correct
+                print(correct)
 
-                #exaustive
-                if nodes<=8:
-                    start_time = time.time()
-                    solutions_, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
-                    end_time = time.time()
-                    execution_time = end_time-start_time
-                    nsolutions = len(solutions_)
-                    
-                    wg.write_to_file_ex(nsolutions, solutions_, execution_time, exh_basic, exh_configurations, kvalue)
+    # random:
+    """ for nodes in range(4, 600):
+        for percentage in percentages:
+            G, nedges = cg.create_graph(nodes, percentage)
+            k = [round(i*nedges) for i in percentages]
+            wg.write_nodes_edges_gr(nodes, percentage, nedges)
+            
+            for kvalue in k:
+                start_time = time.time()
+                solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
+                end_time = time.time()
+                execution_time = end_time-start_time
 
-                    if solutions_!=[] and percentage==0.75 and kvalue==8 and nodes==7:
-                        pg.draw_edges_and_graph(G, solutions_[0])
+                if solutions:
+                    nsolutions = 1
+                else:
+                    nsolutions = 0
 
-                    #check if solution is accurate
-                    #solutions_ -> exhaustive solutions
-                    #solutions -> greedy solutions
-                    solutions_ = [list(solution) for solution in solutions_]
-                    total+=1
-                    correct = (correct+1) if is_solution_in_solutions(solutions, solutions_) else correct
-                    
-    pg.correct_wrong(correct, total) """
+                wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue) """
+
+    pg.correct_wrong(correct, total)
 
     #for wg graphs:
     
-    G_small = cswg.create_small_graph()
+    """ G_small = cswg.create_small_graph()
     G_medium = cswg.create_medium_graph()
     G_large = cswg.create_large_graph()
 
@@ -202,11 +226,11 @@ def main():
             else:
                 nsolutions = 0
                     
-            wg.write_to_file_random_sw(nsolutions, solution_random, random_exec_time, numb_rand_basic, numb_rand_config, kvalue)
+            wg.write_to_file_random_sw(nsolutions, solution_random, random_exec_time, numb_rand_basic, numb_rand_config, kvalue) """
 
 
                         
 if __name__=="__main__":
     main()
-    #pg.print_plots()
+    pg.print_plots()
     

@@ -49,6 +49,7 @@ def write_graph_nsolutions(nsolutions, k_value, type):
         f = open("./info_nodes/nsolutions_gr.txt", "a")
     else:
         f = open("./info_nodes/nsolutions_rnd.txt", "a")
+    f.write("--\n")
     f.write("k_value:" + str(k_value) + "\n")
     f.write("nsolutions:" + str(nsolutions) + "\n")
     f.close() 
@@ -60,6 +61,7 @@ def write_graph_solutions(solutions, k_value, type):
         f = open("./info_nodes/solutions_gr.txt", "a")
     else:
         f = open("./info_nodes/solutions_rnd.txt", "a")
+    f.write("--\n")
     f.write("k_value:" + str(k_value) + "\n")
     f.write("solutions:" + str(solutions) + "\n")
     f.close()
@@ -77,9 +79,9 @@ def initialize_files():
     f.close()
     f = open("./info_nodes/exec_time_rnd.txt", "w") #delete existing data
     f.close()
-    f = open("./info_nodes/basic_gr.txt", "w") #delete existing data
+    f = open("./info_nodes/basic_ex.txt", "w") #delete existing data
     f.close()
-    f = open("./info_nodes/basic_rnd.txt", "w") #delete existing data
+    f = open("./info_nodes/basic_gr.txt", "w") #delete existing data
     f.close()
     f = open("./info_nodes/basic_rnd.txt", "w") #delete existing data
     f.close()

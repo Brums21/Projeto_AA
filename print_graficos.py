@@ -49,9 +49,6 @@ def plot_basic_op_gr_ex():
     plt.figure(figsize=(10, 6))
     nnodes = [i for i in range(4, 30)]
 
-    print(nnodes)
-    print(basic_op_k_05_1)
-
     plt.plot(nnodes, basic_op_k_05_1, label='k = 12.5%')
     plt.plot(nnodes, basic_op_k_05_2, label='k = 25%')
     plt.plot(nnodes, basic_op_k_05_3, label='k = 50%')
