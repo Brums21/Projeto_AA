@@ -135,26 +135,31 @@ def is_solution_in_solutions(solution, solutions):
     return False
 
 def main():
+
+    NODES_EXHAUSTIVE = 8
+    NODES_GREEDY = 30
+    NODES_RANDOM = 300
+
     wg.initialize_files()
     percentages = [0.125, 0.25, 0.5, 0.75]
     total = 0
 
     # exhaustive:
-    for nodes in range(4, 110):
+    for nodes in range(4, NODES_RANDOM):
         for percentage in percentages:
             G, nedges = cg.create_graph(nodes, percentage)
             k = [round(i*nedges) for i in percentages]
             
-            if nodes<=8:
+            if nodes<=NODES_EXHAUSTIVE:
                 wg.write_nodes_edges_ex(nodes, percentage, nedges)
-            if nodes<=30:
+            if nodes<=NODES_GREEDY:
                 wg.write_nodes_edges_gr(nodes, percentage, nedges)
-            if nodes<=110:
+            if nodes<=NODES_RANDOM:
                 wg.write_nodes_edges_rnd(nodes, percentage, nedges)
                 
             for kvalue in k:
 
-                if nodes<=8:
+                if nodes<=NODES_EXHAUSTIVE:
                     start_time = time.time()
                     solutions_ex, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
                     end_time = time.time()
@@ -171,7 +176,7 @@ def main():
                     total+=1
 
                 # greedy
-                if nodes<=30:
+                if nodes<=NODES_GREEDY:
                     start_time = time.time()
                     solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
                     end_time = time.time()
@@ -185,7 +190,7 @@ def main():
                     wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue)
 
                 # random:
-                if nodes<=110:
+                if nodes<=NODES_RANDOM:
                     solution_random, random_exec_time, numb_rand_basic, numb_rand_config = random_algorithm(G, kvalue, 10)
 
                     if solution_random:

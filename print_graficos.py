@@ -212,13 +212,13 @@ def plot_correct_wrong_ex_rnd():
     categories = ['Correct', 'Incorrect']
 
     with open("./info_nodes/solutions_rnd.txt", "r") as file:
-        lines_gr = file.readlines()
+        lines_rnd = file.readlines()
     
     with open("./info_nodes/solutions_ex.txt", "r") as file:
         lines_ex = file.readlines()
 
     solutions_ex = []
-    solutions_gr = []
+    solutions_rnd = []
 
     for i in range(0, len(lines_ex), 15):
         solutions_ex.append(lines_ex[i + 5].split(":")[1].strip()[1:-1])
@@ -226,10 +226,10 @@ def plot_correct_wrong_ex_rnd():
         solutions_ex.append(lines_ex[i + 11].split(":")[1].strip()[1:-1])
         solutions_ex.append(lines_ex[i + 14].split(":")[1].strip()[1:-1])
 
-        solutions_gr.append(lines_gr[i + 5].split(":")[1].strip())
-        solutions_gr.append(lines_gr[i + 8].split(":")[1].strip())
-        solutions_gr.append(lines_gr[i + 11].split(":")[1].strip())
-        solutions_gr.append(lines_gr[i + 14].split(":")[1].strip())
+        solutions_rnd.append(lines_rnd[i + 5].split(":")[1].strip())
+        solutions_rnd.append(lines_rnd[i + 8].split(":")[1].strip())
+        solutions_rnd.append(lines_rnd[i + 11].split(":")[1].strip())
+        solutions_rnd.append(lines_rnd[i + 14].split(":")[1].strip())
 
     correct = 0
 
@@ -239,22 +239,27 @@ def plot_correct_wrong_ex_rnd():
 
         solutions_ex_ = ast.literal_eval(solutions_ex[i])
 
-        if solutions_gr[i] == "None":
-            solutions_gr[i] = '[]'
+        if type(solutions_ex_) is tuple:
+            solutions_ex_ = list(solutions_ex_)
 
-        greedy = tuple(eval(solutions_gr[i]))
+        if len(solutions_ex_)>0 and type(solutions_ex_[0]) is tuple:
+            solutions_ex_ = [solutions_ex_]
 
-        if solutions_ex_ == [] and set(greedy) == set():
+        if solutions_rnd[i] == "None":
+            solutions_rnd[i] = '[]'
+
+        random = tuple(eval(solutions_rnd[i]))
+
+        if (solutions_ex_ == [] and set(random) == set()):
             correct+=1
 
         for element in solutions_ex_:
             el = tuple(element)
-            if set(greedy) == set(el):
+            if set(random) == set(el):
                 correct+=1
-
+    
     incorrect = len(solutions_ex) - correct
-    print(incorrect)
-    print(correct)
+
     values = [correct, incorrect]
     plt.bar(categories, values, color=['green', 'red'], width=0.3, align='center')
     plt.title('Randomized solutions comparing to exhaustive solutions')
@@ -292,6 +297,12 @@ def plot_correct_wrong_ex_gr():
             solutions_ex[i] = '[]'
 
         solutions_ex_ = ast.literal_eval(solutions_ex[i])
+
+        if type(solutions_ex_) is tuple:
+            solutions_ex_ = list(solutions_ex_)
+
+        if len(solutions_ex_)>0 and type(solutions_ex_[0]) is tuple:
+            solutions_ex_ = [solutions_ex_]
 
         if solutions_gr[i] == "None":
             solutions_gr[i] = '[]'
@@ -337,8 +348,8 @@ def plot_scatter_random_time_consumed():
     plt.scatter(nnodes, time_50, marker='x', color=(0.169, 0.631, 0.831, 1), label='k=50%')
     plt.scatter(nnodes, time_75, marker='x', color=(0.922, 0.651, 0.216, 1), label='k=75%')
 
-    plt.xlabel('Nodes')
-    plt.ylabel('Time')
+    plt.xlabel('Number of Nodes')
+    plt.ylabel('Execution Time (seconds)')
     plt.title('Number of nodes related to execution time for different edge percentages')
     plt.legend()
 
@@ -394,9 +405,8 @@ def plot_number_of_edges_solutions_found():
         solutions_50_3.append(int(lines_rand[i + 44].split(":")[1].strip()))
         solutions_75_3.append(int(lines_rand[i + 59].split(":")[1].strip()))
 
-        
     
-    _, hor = plt.subplots(4, 1, figsize=(10,10))
+    _, hor = plt.subplots(4, 1, figsize=(10,14))
     plt.subplots_adjust(hspace=0.8)
 
     hor[0].scatter(nnodes, solutions_125_0, marker='x', color=(0.678, 0.176, 0.153, 1), label='k=12.5%')
@@ -433,6 +443,37 @@ def plot_number_of_edges_solutions_found():
     plt.savefig("./images/plot_number_of_edges_solutions_found.png")
     plt.close()
 
+def plot_number_of_edges_noperations_found():
+    with open("./info_nodes/basic_rnd.txt", "r") as file:
+        lines_rand = file.readlines()
+
+    nnodes = []
+    basic_125 = []
+    basic_250 = []
+    basic_50 = []
+    basic_75 = []
+
+    for i in range(0, len(lines_rand)-45, 60):
+        nnodes.append(int(lines_rand[i].split(":")[1].strip()))
+        basic_125.append(int(lines_rand[i + 14].split(":")[1].strip()))
+        basic_250.append(int(lines_rand[i + 29].split(":")[1].strip()))
+        basic_50.append(int(lines_rand[i + 44].split(":")[1].strip()))
+        basic_75.append(int(lines_rand[i + 59].split(":")[1].strip()))
+
+
+    plt.plot(nnodes, basic_125, color=(0.678, 0.176, 0.153, 1), label='k=12.5%')
+    plt.plot(nnodes, basic_250, color=(0.404, 0.722, 0.431, 1), label='k=25%')
+    plt.plot(nnodes, basic_50, color=(0.169, 0.631, 0.831, 1), label='k=50%')
+    plt.plot(nnodes, basic_75, color=(0.922, 0.651, 0.216, 1), label='k=75%')
+
+    plt.xlabel('Number of Nodes')
+    plt.ylabel('Number of operations')
+    plt.title('Number of nodes related to number of operations - Randomized Algorithm', fontsize = 10)
+    plt.legend()
+
+    plt.savefig("./images/plot_line_random_basic_operations_rnd.png")
+    plt.close()
+
 def draw_edges_and_graph(G, dominating_set):
     if dominating_set != None:
         for e in G.edges():
@@ -449,7 +490,6 @@ def image_dominating_set(G, edge_color_list, pos):
     directory = "edge_dominating_set_example.png"
     plt.savefig(str("images/" + directory))
     plt.close()
-
 
 
 def print_plots():
@@ -476,4 +516,7 @@ def print_plots():
 
     #plot 8 - scatter plot random algorithm numb solutions found
     plot_number_of_edges_solutions_found()
+
+    #plot 9 - line chart random algorithm numb basic operations
+    #plot_number_of_edges_noperations_found()
     pass
