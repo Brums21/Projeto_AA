@@ -1,4 +1,4 @@
-from ProjetoAA import nx, plt
+import networkx as nx
 
 def create_large_graph():
     return create_graph_based_on_file("SWlargeG")

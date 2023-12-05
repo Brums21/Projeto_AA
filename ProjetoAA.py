@@ -1,10 +1,6 @@
 import itertools
-import networkx as nx
-import networkx.algorithms.approximation as alg
-import matplotlib.pyplot as plt
 import time
 import random
-import math
 import print_graficos as pg
 import write_graficos as wg
 import create_graficos as cg
@@ -80,45 +76,53 @@ def greedy_heuristic(G, k):
 
     return list(dominating_set) if len(dominating_set) <= k else None, grd_basic_operations, grd_tested_configurations
 
+
 def random_algorithm(graph, k, num_configurations):
     global random_operations
     global random_configurations
-    tries = num_configurations
+    
     random_operations = 0
     random_configurations = 0
+
     solution = None
     tested_solutions = set()
+
     start_time = time.time()
-    while tries>0:
+
+    for _ in range(num_configurations):
+        random_operations +=1
         candidate = random.sample(list(graph.edges()), k)
-        random_operations += 1
-        tries -= 1
         if str(candidate) in tested_solutions:
-            random_configurations += 1
+            random_configurations+=1
             continue
         tested_solutions.add(str(candidate))
         if is_valid_solution(graph, candidate):
-            random_configurations += 1
             solution = candidate
-            print("here")
-            break
+            return solution, time.time()-start_time, random_operations, random_configurations
 
     return solution, time.time()-start_time, random_operations, random_configurations
 
+
 def is_valid_solution(graph, candidate):
-    global random_operations 
-    dominating_set = set()
+    global random_operations
+    global random_configurations
 
-    covered = [False]*len(graph)
+    random_configurations+=1
+    
+    all_edges = set(graph.edges())
 
-    for vertex in range(len(graph)):
-        if not covered[vertex]:
-            dominating_set.add(vertex)
-            covered[vertex] = True
-            for adjacent in graph[vertex]:
-                covered[adjacent] = True
-                
-    return dominating_set == set(candidate)
+    covered_vertices = set()
+
+    for edge in candidate:
+        random_operations +=1
+        covered_vertices.update(edge)
+
+    for edge in all_edges:
+        random_operations +=1
+        if not set(edge).intersection(covered_vertices):
+            return False
+        
+    return True
 
 
 def is_solution_in_solutions(solution, solutions):
@@ -134,79 +138,67 @@ def main():
     wg.initialize_files()
     percentages = [0.125, 0.25, 0.5, 0.75]
     total = 0
-    correct = 0
 
     # exhaustive:
-    for nodes in range(4, 9):
+    for nodes in range(4, 110):
         for percentage in percentages:
             G, nedges = cg.create_graph(nodes, percentage)
             k = [round(i*nedges) for i in percentages]
             
-            wg.write_nodes_edges_ex(nodes, percentage, nedges)
+            if nodes<=8:
+                wg.write_nodes_edges_ex(nodes, percentage, nedges)
+            if nodes<=30:
+                wg.write_nodes_edges_gr(nodes, percentage, nedges)
+            if nodes<=110:
+                wg.write_nodes_edges_rnd(nodes, percentage, nedges)
                 
             for kvalue in k:
 
-                start_time = time.time()
-                solutions_ex, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
-                end_time = time.time()
-                execution_time = end_time-start_time
-                nsolutions = len(solutions_ex)
-                
-                wg.write_to_file_ex(nsolutions, solutions_ex, execution_time, exh_basic, exh_configurations, kvalue)
+                if nodes<=8:
+                    start_time = time.time()
+                    solutions_ex, exh_basic, exh_configurations = exhaustive_search(G, kvalue)
+                    end_time = time.time()
+                    execution_time = end_time-start_time
+                    nsolutions = len(solutions_ex)
+                    
+                    wg.write_to_file_ex(nsolutions, solutions_ex, execution_time, exh_basic, exh_configurations, kvalue)
 
-                # draw one exemaple graph
-                if solutions_ex!=[] and percentage==0.75 and kvalue==8 and nodes==7:
-                    pg.draw_edges_and_graph(G, solutions_ex[0])
+                    # draw one exemaple graph
+                    if solutions_ex!=[] and percentage==0.75 and kvalue==8 and nodes==7:
+                        pg.draw_edges_and_graph(G, solutions_ex[0])
 
-                solutions_ex = [list(solution) for solution in solutions_ex]
-                total+=1
+                    solutions_ex = [list(solution) for solution in solutions_ex]
+                    total+=1
 
-    # greedy
-    for nodes in range(4, 30):
-        for percentage in percentages:
-            G, nedges = cg.create_graph(nodes, percentage)
-            k = [round(i*nedges) for i in percentages]
-            wg.write_nodes_edges_gr(nodes, percentage, nedges)
-            
-            for kvalue in k:
-                start_time = time.time()
-                solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
-                end_time = time.time()
-                execution_time = end_time-start_time
+                # greedy
+                if nodes<=30:
+                    start_time = time.time()
+                    solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
+                    end_time = time.time()
+                    execution_time = end_time-start_time
 
-                if solutions:
-                    nsolutions = 1
-                else:
-                    nsolutions = 0
+                    if solutions:
+                        nsolutions = 1
+                    else:
+                        nsolutions = 0
 
-                wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue)
-            
+                    wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue)
 
-    # random:
-    """ for nodes in range(4, 600):
-        for percentage in percentages:
-            G, nedges = cg.create_graph(nodes, percentage)
-            k = [round(i*nedges) for i in percentages]
-            wg.write_nodes_edges_gr(nodes, percentage, nedges)
-            
-            for kvalue in k:
-                start_time = time.time()
-                solutions, greedy_basic, greedy_configurations = greedy_heuristic(G, kvalue)
-                end_time = time.time()
-                execution_time = end_time-start_time
+                # random:
+                if nodes<=110:
+                    solution_random, random_exec_time, numb_rand_basic, numb_rand_config = random_algorithm(G, kvalue, 10)
 
-                if solutions:
-                    nsolutions = 1
-                else:
-                    nsolutions = 0
+                    if solution_random:
+                        nsolutions = 1
+                    else:
+                        nsolutions = 0
 
-                wg.write_to_file_gr(nsolutions, solutions, execution_time, greedy_basic, greedy_configurations, kvalue) """
+                    wg.write_to_file_random_sw(nsolutions, solution_random, random_exec_time, numb_rand_basic, numb_rand_config, kvalue)
 
-    pg.correct_wrong(correct, total)
 
     #for wg graphs:
     
-    """ G_small = cswg.create_small_graph()
+    G_small = cswg.create_small_graph()
     G_medium = cswg.create_medium_graph()
     G_large = cswg.create_large_graph()
 
@@ -224,11 +216,10 @@ def main():
             else:
                 nsolutions = 0
                     
-            wg.write_to_file_random_sw(nsolutions, solution_random, random_exec_time, numb_rand_basic, numb_rand_config, kvalue) """
+            wg.write_to_file_random_sw(nsolutions, solution_random, random_exec_time, numb_rand_basic, numb_rand_config, kvalue)
 
 
-                        
 if __name__=="__main__":
-    main()
+    #main()
     pg.print_plots()
     

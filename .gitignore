@@ -1,3 +1,6 @@
 **/venv
 **/venv_win
 .gitignore
+**/info_nodes/
+**/sw_grafos/
+**/images/
